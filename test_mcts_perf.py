@@ -1,34 +1,30 @@
-"""性能对比测试：串行MCTS vs 并行MCTS"""
+"""性能对比测试 - 调试版"""
 import time
 import sys
+print('[1] 启动', flush=True)
 sys.path.insert(0, 'd:\\Learning\\XW_PROJECT\\XW-GO')
+print('[2] 导入', flush=True)
 from go_engine import GoBoard, BLACK
 from ai_player import SimpleMCTS
-
-print('=' * 60)
-print('MCTS 性能测试（9x9 棋盘，50次模拟/走法）')
-print('=' * 60)
-
-# 准备一个有较多走子的棋局
+print('[3] 创建棋盘', flush=True)
 b = GoBoard(9)
-for x, y in [(4, 4), (3, 3), (5, 5), (4, 3), (5, 4)]:
+for x, y in [(4, 4), (3, 3)]:
     b.play_move(x, y, BLACK)
 
-# 串行MCTS
-print('\n[串行模式]')
-mcts_serial = SimpleMCTS(simulations=20, parallel=False)
+print('[4] 串行MCTS (1模拟)', flush=True)
+mcts1 = SimpleMCTS(simulations=1, parallel=False)
 start = time.time()
-mv = mcts_serial.select_move(b, BLACK)
-t_serial = time.time() - start
-print(f'  走法: {mv}  耗时: {t_serial:.2f}s')
+mv1 = mcts1.select_move(b, BLACK)
+t1 = time.time() - start
+print(f'  结果: {mv1}, 耗时: {t1:.2f}s', flush=True)
 
-# 并行MCTS
-print('\n[并行模式 - 8线程]')
-mcts_par = SimpleMCTS(simulations=20, parallel=True)
+print('[5] 并行MCTS (1模拟)', flush=True)
+mcts2 = SimpleMCTS(simulations=1, parallel=True)
 start = time.time()
-mv = mcts_par.select_move(b, BLACK)
-t_par = time.time() - start
-print(f'  走法: {mv}  耗时: {t_par:.2f}s')
+mv2 = mcts2.select_move(b, BLACK)
+t2 = time.time() - start
+print(f'  结果: {mv2}, 耗时: {t2:.2f}s', flush=True)
 
-print(f'\n加速比: {t_serial / t_par:.2f}x')
-print('=' * 60)
+print(f'加速比: {t1/t2:.2f}x', flush=True)
+print('=' * 60, flush=True)
+

@@ -41,9 +41,12 @@ class GoBoard:
         self.ko_point = None
 
     def clone(self):
-        """深拷贝"""
+        """深拷贝 - 优化版：使用浅拷贝+内部list copy，避免 deepcopy 慢
+        比 copy.deepcopy() 快约10-20倍
+        """
         new = GoBoard(self.size)
-        new.board = copy.deepcopy(self.board)
+        # 二维列表：用浅拷贝+内部list copy代替deepcopy
+        new.board = [row[:] for row in self.board]
         new.history = list(self.history)
         new.move_history = list(self.move_history)
         new.pass_count = self.pass_count

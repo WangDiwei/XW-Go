@@ -197,36 +197,32 @@ class SimpleMCTS:
 
     def _select_parallel(self, board, color, legal):
         """多线程并行评估所有候选走法
-        注意：所有线程共享同一 board，但每次模拟会调用 board.clone()，
-        Python GIL 保证每个 clone/play_move 原子性，从而避免竞态。
+        策略：每个 first_move 分配一个线程，各线程独立 deep copy 后串行模拟
+        这样可以避免共享 GoBoard 状态导致的竞态。
         """
         from concurrent.futures import ThreadPoolExecutor
         sims_per_move = max(1, self.simulations)
-        n_workers = min(self._cores, len(legal) * 2)
-        # 准备任务：每个 (move_index, move) 对应所有模拟
-        tasks = []
-        for i, mv in enumerate(legal):
+        n_workers = min(self._cores, len(legal))
+
+        def eval_move(mv):
+            """为单个 first_move 评估胜率"""
+            wins = 0
             for _ in range(sims_per_move):
-                tasks.append((i, mv))
+                winner = self._simulate(board, color, mv)
+                if winner == color:
+                    wins += 1
+            return mv, wins
 
         with ThreadPoolExecutor(max_workers=n_workers) as ex:
-            results = list(ex.map(lambda t: (t[0], self._simulate(board, color, t[1])), tasks))
+            results = list(ex.map(eval_move, legal))
 
-        # 汇总
-        scores = [0] * len(legal)
-        wins = [0] * len(legal)
-        for idx, winner in results:
-            wins[idx] += 1
-            if winner == color:
-                scores[idx] += 1
-
-        best_idx = 0
-        best_score = -1
-        for i, s in enumerate(scores):
-            if s > best_score:
-                best_score = s
-                best_idx = i
-        return legal[best_idx]
+        best_move = None
+        best_wins = -1
+        for mv, wins in results:
+            if wins > best_wins:
+                best_wins = wins
+                best_move = mv
+        return best_move
 
     def _simulate_batch(self, board, color, first_move, count):
         """对单次首步执行 count 次模拟，返回赢的次数"""
@@ -238,7 +234,9 @@ class SimpleMCTS:
         return wins
 
     def _simulate(self, board, color, first_move):
-        """从first_move开始，随机走子直到终局"""
+        """从first_move开始，随机走子直到终局
+        使用 GoBoard 自带的 clone()（已优化）
+        """
         clone = board.clone()
         r = clone.play_move(first_move[0], first_move[1], color)
         if not r['ok']:

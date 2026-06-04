@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XW-GO · 围棋自对弈训练AI</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <!-- 左侧：棋盘 -->
+        <section class="board-panel">
+            <div class="board-header">
+                <h1 class="title">XW-GO</h1>
+                <div class="subtitle">围棋自对弈训练 AI · 中国规则 · 贴3¾子</div>
+            </div>
+
+            <div class="board-container" id="boardContainer">
+                <canvas id="board" width="640" height="640"></canvas>
+                <div class="board-overlay" id="boardOverlay">
+                    <div class="thinking" id="thinkingIndicator">
+                        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                        <span>AI 思考中...</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="board-status">
+                <div class="status-item">
+                    <span class="status-label">轮到</span>
+                    <span class="status-value" id="turnIndicator">
+                        <span class="stone-icon black"></span>黑方
+                    </span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">手数</span>
+                    <span class="status-value" id="moveCount">0</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">虚着</span>
+                    <span class="status-value" id="passCount">0</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">棋盘</span>
+                    <span class="status-value" id="boardSize">9×9</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 中间：控制 + 模式 -->
+        <section class="control-panel">
+            <div class="panel-card">
+                <h3>对局模式</h3>
+                <div class="mode-buttons">
+                    <button class="mode-btn active" data-mode="human_ai">
+                        <span class="mode-icon">👤</span>
+                        <span class="mode-text">人类 vs AI</span>
+                    </button>
+                    <button class="mode-btn" data-mode="ai_ai_step">
+                        <span class="mode-icon">🤖</span>
+                        <span class="mode-text">AI 单步</span>
+                    </button>
+                    <button class="mode-btn" data-mode="ai_ai">
+                        <span class="mode-icon">⚔️</span>
+                        <span class="mode-text">AI 连续</span>
+                    </button>
+                    <button class="mode-btn" data-mode="ai_selfplay">
+                        <span class="mode-icon">🧠</span>
+                        <span class="mode-text">自对弈训练</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>对局控制</h3>
+                <div class="control-buttons">
+                    <button class="btn primary" id="btnNewGame">🆕 新对局</button>
+                    <button class="btn" id="btnReset">↻ 重置</button>
+                    <button class="btn" id="btnPass">⏭ 虚着</button>
+                    <button class="btn" id="btnAiMove">▶ AI 走一步</button>
+                    <button class="btn danger" id="btnResign">🏳 认输</button>
+                    <button class="btn" id="btnSaveSgf">💾 保存棋谱</button>
+                </div>
+                <div class="size-selector">
+                    <label>棋盘:</label>
+                    <select id="boardSizeSelect">
+                        <option value="9" selected>9 × 9</option>
+                        <option value="13">13 × 13</option>
+                        <option value="19">19 × 19</option>
+                    </select>
+                    <label>执子:</label>
+                    <select id="humanColorSelect">
+                        <option value="1" selected>黑 (先手)</option>
+                        <option value="2">白 (后手)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>训练控制</h3>
+                <div class="train-config">
+                    <label>每批局数:</label>
+                    <input type="number" id="trainBatchSize" value="10" min="1" max="10000">
+                </div>
+                <div class="control-buttons">
+                    <button class="btn primary" id="btnTrainStart">🚀 开始训练</button>
+                    <button class="btn danger" id="btnTrainStop">⏹ 停止训练</button>
+                    <button class="btn" id="btnTrainStep">⚡ 训练1局</button>
+                </div>
+                <div class="train-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="trainProgress"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>训练统计</h3>
+                <div class="stat-grid">
+                    <div class="stat-cell">
+                        <div class="stat-label">总对局数</div>
+                        <div class="stat-value" id="statTotalGames">0</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-label">当前阶段</div>
+                        <div class="stat-value" id="statPhase">—</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-label">Q表状态数</div>
+                        <div class="stat-value" id="statQStates">0</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-label">总访问次数</div>
+                        <div class="stat-value" id="statVisits">0</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-label">近10局黑胜率</div>
+                        <div class="stat-value" id="statBlackWinrate">—</div>
+                    </div>
+                    <div class="stat-cell">
+                        <div class="stat-label">近10局白胜率</div>
+                        <div class="stat-value" id="statWhiteWinrate">—</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 右侧：分析 -->
+        <section class="analysis-panel">
+            <div class="panel-card">
+                <h3>胜率趋势</h3>
+                <div class="chart-container">
+                    <canvas id="winrateChart"></canvas>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>当前对局分析</h3>
+                <button class="btn block" id="btnAnalyze">🔍 请求分析</button>
+                <div class="analysis-output" id="analysisOutput">
+                    <div class="analysis-empty">点击"请求分析"查看详情</div>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>棋谱列表</h3>
+                <div class="move-list-container">
+                    <div class="move-list" id="moveList">
+                        <div class="move-empty">暂无落子</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-card">
+                <h3>热键</h3>
+                <div class="hotkey-list">
+                    <div><kbd>空格</kbd> AI 走一步</div>
+                    <div><kbd>P</kbd> 虚着</div>
+                    <div><kbd>R</kbd> 重置</div>
+                    <div><kbd>N</kbd> 新对局</div>
+                    <div><kbd>A</kbd> 分析</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 终局弹窗 -->
+    <div class="modal" id="gameOverModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>🏆 棋局终了</h2>
+                <button class="modal-close" id="modalCloseBtn">×</button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- 动态填充 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast 提示 -->
+    <div class="toast" id="toast"></div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

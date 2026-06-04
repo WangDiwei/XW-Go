@@ -1,0 +1,5881 @@
+{
+  "history": [
+    {
+      "game_no": 1,
+      "winner": 1,
+      "moves": 144,
+      "black_total": 69,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:07:10.254507"
+    },
+    {
+      "game_no": 2,
+      "winner": 1,
+      "moves": 87,
+      "black_total": 42,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:07:18.494639"
+    },
+    {
+      "game_no": 3,
+      "winner": 1,
+      "moves": 142,
+      "black_total": 68,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:07:18.839809"
+    },
+    {
+      "game_no": 4,
+      "winner": 2,
+      "moves": 104,
+      "black_total": 39,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:07:19.064047"
+    },
+    {
+      "game_no": 5,
+      "winner": 2,
+      "moves": 119,
+      "black_total": 32,
+      "white_total": 52.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:45.488113"
+    },
+    {
+      "game_no": 6,
+      "winner": 2,
+      "moves": 133,
+      "black_total": 32,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:45.790720"
+    },
+    {
+      "game_no": 7,
+      "winner": 1,
+      "moves": 100,
+      "black_total": 48,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:45.989473"
+    },
+    {
+      "game_no": 8,
+      "winner": 1,
+      "moves": 112,
+      "black_total": 61,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:46.215023"
+    },
+    {
+      "game_no": 9,
+      "winner": 2,
+      "moves": 80,
+      "black_total": 36,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:46.448411"
+    },
+    {
+      "game_no": 10,
+      "winner": 1,
+      "moves": 140,
+      "black_total": 63,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:46.856233"
+    },
+    {
+      "game_no": 11,
+      "winner": 1,
+      "moves": 137,
+      "black_total": 61,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:47.149651"
+    },
+    {
+      "game_no": 12,
+      "winner": 1,
+      "moves": 123,
+      "black_total": 55,
+      "white_total": 25.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:47.590859"
+    },
+    {
+      "game_no": 13,
+      "winner": 2,
+      "moves": 124,
+      "black_total": 29,
+      "white_total": 52.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:47.819693"
+    },
+    {
+      "game_no": 14,
+      "winner": 2,
+      "moves": 119,
+      "black_total": 14,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:48.073325"
+    },
+    {
+      "game_no": 15,
+      "winner": 2,
+      "moves": 147,
+      "black_total": 6,
+      "white_total": 76.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:51.050945"
+    },
+    {
+      "game_no": 16,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 53,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:51.280914"
+    },
+    {
+      "game_no": 17,
+      "winner": 1,
+      "moves": 107,
+      "black_total": 49,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:51.518228"
+    },
+    {
+      "game_no": 18,
+      "winner": 1,
+      "moves": 108,
+      "black_total": 50,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:51.759141"
+    },
+    {
+      "game_no": 19,
+      "winner": 1,
+      "moves": 164,
+      "black_total": 76,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:52.088175"
+    },
+    {
+      "game_no": 20,
+      "winner": 1,
+      "moves": 118,
+      "black_total": 44,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:52.318735"
+    },
+    {
+      "game_no": 21,
+      "winner": 1,
+      "moves": 164,
+      "black_total": 76,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:52.704600"
+    },
+    {
+      "game_no": 22,
+      "winner": 2,
+      "moves": 138,
+      "black_total": 19,
+      "white_total": 61.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:52.979023"
+    },
+    {
+      "game_no": 23,
+      "winner": 2,
+      "moves": 149,
+      "black_total": 10,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:53.308410"
+    },
+    {
+      "game_no": 24,
+      "winner": 2,
+      "moves": 45,
+      "black_total": 24,
+      "white_total": 24.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:53.445735"
+    },
+    {
+      "game_no": 25,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 35,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:55.229284"
+    },
+    {
+      "game_no": 26,
+      "winner": 2,
+      "moves": 142,
+      "black_total": 11,
+      "white_total": 69.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:55.582896"
+    },
+    {
+      "game_no": 27,
+      "winner": 1,
+      "moves": 229,
+      "black_total": 44,
+      "white_total": 28.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:56.164114"
+    },
+    {
+      "game_no": 28,
+      "winner": 2,
+      "moves": 126,
+      "black_total": 21,
+      "white_total": 61.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:56.427835"
+    },
+    {
+      "game_no": 29,
+      "winner": 1,
+      "moves": 123,
+      "black_total": 44,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:56.662026"
+    },
+    {
+      "game_no": 30,
+      "winner": 2,
+      "moves": 55,
+      "black_total": 26,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:56.815572"
+    },
+    {
+      "game_no": 31,
+      "winner": 1,
+      "moves": 108,
+      "black_total": 47,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:57.032434"
+    },
+    {
+      "game_no": 32,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 48,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:57.262073"
+    },
+    {
+      "game_no": 33,
+      "winner": 2,
+      "moves": 91,
+      "black_total": 36,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:57.490762"
+    },
+    {
+      "game_no": 34,
+      "winner": 1,
+      "moves": 130,
+      "black_total": 68,
+      "white_total": 12.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:57.828650"
+    },
+    {
+      "game_no": 35,
+      "winner": 1,
+      "moves": 88,
+      "black_total": 49,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:58.396846"
+    },
+    {
+      "game_no": 36,
+      "winner": 1,
+      "moves": 158,
+      "black_total": 76,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:58.732287"
+    },
+    {
+      "game_no": 37,
+      "winner": 2,
+      "moves": 116,
+      "black_total": 32,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:58.962194"
+    },
+    {
+      "game_no": 38,
+      "winner": 1,
+      "moves": 152,
+      "black_total": 66,
+      "white_total": 14.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:59.258489"
+    },
+    {
+      "game_no": 39,
+      "winner": 1,
+      "moves": 115,
+      "black_total": 43,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:59.464690"
+    },
+    {
+      "game_no": 40,
+      "winner": 1,
+      "moves": 118,
+      "black_total": 50,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:59.724099"
+    },
+    {
+      "game_no": 41,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 31,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:09:59.919214"
+    },
+    {
+      "game_no": 42,
+      "winner": 2,
+      "moves": 122,
+      "black_total": 25,
+      "white_total": 57.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:00.161441"
+    },
+    {
+      "game_no": 43,
+      "winner": 1,
+      "moves": 154,
+      "black_total": 62,
+      "white_total": 19.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:00.582553"
+    },
+    {
+      "game_no": 44,
+      "winner": 1,
+      "moves": 84,
+      "black_total": 48,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:00.918075"
+    },
+    {
+      "game_no": 45,
+      "winner": 2,
+      "moves": 125,
+      "black_total": 39,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:05.780146"
+    },
+    {
+      "game_no": 46,
+      "winner": 1,
+      "moves": 93,
+      "black_total": 45,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:06.060121"
+    },
+    {
+      "game_no": 47,
+      "winner": 1,
+      "moves": 100,
+      "black_total": 47,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:06.260054"
+    },
+    {
+      "game_no": 48,
+      "winner": 2,
+      "moves": 154,
+      "black_total": 4,
+      "white_total": 78.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:06.587946"
+    },
+    {
+      "game_no": 49,
+      "winner": 1,
+      "moves": 192,
+      "black_total": 59,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:07.040321"
+    },
+    {
+      "game_no": 50,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 20,
+      "white_total": 60.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:07.248000"
+    },
+    {
+      "game_no": 51,
+      "winner": 1,
+      "moves": 127,
+      "black_total": 42,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:07.490093"
+    },
+    {
+      "game_no": 52,
+      "winner": 1,
+      "moves": 127,
+      "black_total": 56,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:07.768169"
+    },
+    {
+      "game_no": 53,
+      "winner": 1,
+      "moves": 162,
+      "black_total": 60,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:08.076944"
+    },
+    {
+      "game_no": 54,
+      "winner": 1,
+      "moves": 109,
+      "black_total": 52,
+      "white_total": 27.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:08.308200"
+    },
+    {
+      "game_no": 55,
+      "winner": 1,
+      "moves": 181,
+      "black_total": 76,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:08.719029"
+    },
+    {
+      "game_no": 56,
+      "winner": 2,
+      "moves": 104,
+      "black_total": 41,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:08.959938"
+    },
+    {
+      "game_no": 57,
+      "winner": 2,
+      "moves": 150,
+      "black_total": 17,
+      "white_total": 65.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:09.282363"
+    },
+    {
+      "game_no": 58,
+      "winner": 1,
+      "moves": 111,
+      "black_total": 52,
+      "white_total": 30.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:09.492771"
+    },
+    {
+      "game_no": 59,
+      "winner": 1,
+      "moves": 181,
+      "black_total": 71,
+      "white_total": 11.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:09.860367"
+    },
+    {
+      "game_no": 60,
+      "winner": 2,
+      "moves": 95,
+      "black_total": 33,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:10.063840"
+    },
+    {
+      "game_no": 61,
+      "winner": 2,
+      "moves": 125,
+      "black_total": 17,
+      "white_total": 63.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:10.315764"
+    },
+    {
+      "game_no": 62,
+      "winner": 1,
+      "moves": 92,
+      "black_total": 43,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:10.509332"
+    },
+    {
+      "game_no": 63,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 33,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:10.707529"
+    },
+    {
+      "game_no": 64,
+      "winner": 2,
+      "moves": 64,
+      "black_total": 31,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:10.879129"
+    },
+    {
+      "game_no": 65,
+      "winner": 1,
+      "moves": 156,
+      "black_total": 68,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:11.295478"
+    },
+    {
+      "game_no": 66,
+      "winner": 1,
+      "moves": 171,
+      "black_total": 63,
+      "white_total": 8.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:11.645459"
+    },
+    {
+      "game_no": 67,
+      "winner": 2,
+      "moves": 81,
+      "black_total": 37,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:11.832781"
+    },
+    {
+      "game_no": 68,
+      "winner": 2,
+      "moves": 58,
+      "black_total": 32,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:11.984690"
+    },
+    {
+      "game_no": 69,
+      "winner": 1,
+      "moves": 111,
+      "black_total": 55,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:12.205416"
+    },
+    {
+      "game_no": 70,
+      "winner": 2,
+      "moves": 206,
+      "black_total": 2,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:12.586356"
+    },
+    {
+      "game_no": 71,
+      "winner": 1,
+      "moves": 79,
+      "black_total": 42,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:12.763626"
+    },
+    {
+      "game_no": 72,
+      "winner": 2,
+      "moves": 139,
+      "black_total": 10,
+      "white_total": 57.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:13.037980"
+    },
+    {
+      "game_no": 73,
+      "winner": 1,
+      "moves": 179,
+      "black_total": 74,
+      "white_total": 8.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:13.415062"
+    },
+    {
+      "game_no": 74,
+      "winner": 2,
+      "moves": 240,
+      "black_total": 29,
+      "white_total": 52.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:13.896564"
+    },
+    {
+      "game_no": 75,
+      "winner": 2,
+      "moves": 169,
+      "black_total": 27,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:14.284798"
+    },
+    {
+      "game_no": 76,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 45,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:14.515358"
+    },
+    {
+      "game_no": 77,
+      "winner": 1,
+      "moves": 135,
+      "black_total": 54,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:14.789856"
+    },
+    {
+      "game_no": 78,
+      "winner": 1,
+      "moves": 118,
+      "black_total": 42,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:15.033402"
+    },
+    {
+      "game_no": 79,
+      "winner": 2,
+      "moves": 169,
+      "black_total": 0,
+      "white_total": 84.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:15.468118"
+    },
+    {
+      "game_no": 80,
+      "winner": 2,
+      "moves": 150,
+      "black_total": 5,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:15.808314"
+    },
+    {
+      "game_no": 81,
+      "winner": 1,
+      "moves": 90,
+      "black_total": 42,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:15.993212"
+    },
+    {
+      "game_no": 82,
+      "winner": 1,
+      "moves": 172,
+      "black_total": 68,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:16.382993"
+    },
+    {
+      "game_no": 83,
+      "winner": 1,
+      "moves": 132,
+      "black_total": 57,
+      "white_total": 19.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:16.850323"
+    },
+    {
+      "game_no": 84,
+      "winner": 1,
+      "moves": 96,
+      "black_total": 47,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:17.084340"
+    },
+    {
+      "game_no": 85,
+      "winner": 2,
+      "moves": 168,
+      "black_total": 4,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:17.559280"
+    },
+    {
+      "game_no": 86,
+      "winner": 1,
+      "moves": 221,
+      "black_total": 48,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:18.259171"
+    },
+    {
+      "game_no": 87,
+      "winner": 2,
+      "moves": 172,
+      "black_total": 5,
+      "white_total": 76.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:18.582295"
+    },
+    {
+      "game_no": 88,
+      "winner": 2,
+      "moves": 200,
+      "black_total": 6,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:19.014958"
+    },
+    {
+      "game_no": 89,
+      "winner": 1,
+      "moves": 85,
+      "black_total": 42,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:19.212755"
+    },
+    {
+      "game_no": 90,
+      "winner": 1,
+      "moves": 186,
+      "black_total": 73,
+      "white_total": 11.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:19.569859"
+    },
+    {
+      "game_no": 91,
+      "winner": 1,
+      "moves": 166,
+      "black_total": 81,
+      "white_total": 3.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:19.930610"
+    },
+    {
+      "game_no": 92,
+      "winner": 1,
+      "moves": 131,
+      "black_total": 62,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:20.223385"
+    },
+    {
+      "game_no": 93,
+      "winner": 2,
+      "moves": 159,
+      "black_total": 23,
+      "white_total": 60.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:20.534281"
+    },
+    {
+      "game_no": 94,
+      "winner": 1,
+      "moves": 95,
+      "black_total": 42,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:20.716415"
+    },
+    {
+      "game_no": 95,
+      "winner": 1,
+      "moves": 161,
+      "black_total": 59,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:21.137946"
+    },
+    {
+      "game_no": 96,
+      "winner": 1,
+      "moves": 49,
+      "black_total": 28,
+      "white_total": 27.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:21.284584"
+    },
+    {
+      "game_no": 97,
+      "winner": 2,
+      "moves": 138,
+      "black_total": 15,
+      "white_total": 63.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:21.585753"
+    },
+    {
+      "game_no": 98,
+      "winner": 2,
+      "moves": 174,
+      "black_total": 4,
+      "white_total": 78.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:21.935963"
+    },
+    {
+      "game_no": 99,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 30,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:22.152319"
+    },
+    {
+      "game_no": 100,
+      "winner": 2,
+      "moves": 84,
+      "black_total": 39,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:22.332117"
+    },
+    {
+      "game_no": 101,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 22,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:22.592676"
+    },
+    {
+      "game_no": 102,
+      "winner": 2,
+      "moves": 161,
+      "black_total": 4,
+      "white_total": 78.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:22.938612"
+    },
+    {
+      "game_no": 103,
+      "winner": 2,
+      "moves": 156,
+      "black_total": 5,
+      "white_total": 76.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:23.255114"
+    },
+    {
+      "game_no": 104,
+      "winner": 2,
+      "moves": 147,
+      "black_total": 19,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:23.580682"
+    },
+    {
+      "game_no": 105,
+      "winner": 1,
+      "moves": 135,
+      "black_total": 65,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:24.044329"
+    },
+    {
+      "game_no": 106,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 37,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:24.237314"
+    },
+    {
+      "game_no": 107,
+      "winner": 2,
+      "moves": 157,
+      "black_total": 7,
+      "white_total": 74.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:24.611781"
+    },
+    {
+      "game_no": 108,
+      "winner": 2,
+      "moves": 150,
+      "black_total": 14,
+      "white_total": 66.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:24.937208"
+    },
+    {
+      "game_no": 109,
+      "winner": 2,
+      "moves": 21,
+      "black_total": 10,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:25.048754"
+    },
+    {
+      "game_no": 110,
+      "winner": 1,
+      "moves": 161,
+      "black_total": 59,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:25.496709"
+    },
+    {
+      "game_no": 111,
+      "winner": 1,
+      "moves": 166,
+      "black_total": 81,
+      "white_total": 3.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:25.830666"
+    },
+    {
+      "game_no": 112,
+      "winner": 1,
+      "moves": 88,
+      "black_total": 43,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:26.035577"
+    },
+    {
+      "game_no": 113,
+      "winner": 2,
+      "moves": 237,
+      "black_total": 32,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:26.624577"
+    },
+    {
+      "game_no": 114,
+      "winner": 2,
+      "moves": 103,
+      "black_total": 33,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:26.886350"
+    },
+    {
+      "game_no": 115,
+      "winner": 2,
+      "moves": 82,
+      "black_total": 34,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:27.398081"
+    },
+    {
+      "game_no": 116,
+      "winner": 2,
+      "moves": 38,
+      "black_total": 20,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:27.577337"
+    },
+    {
+      "game_no": 117,
+      "winner": 1,
+      "moves": 102,
+      "black_total": 47,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:27.822244"
+    },
+    {
+      "game_no": 118,
+      "winner": 2,
+      "moves": 132,
+      "black_total": 13,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:28.130708"
+    },
+    {
+      "game_no": 119,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 23,
+      "white_total": 58.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:28.455073"
+    },
+    {
+      "game_no": 120,
+      "winner": 1,
+      "moves": 128,
+      "black_total": 47,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:28.764216"
+    },
+    {
+      "game_no": 121,
+      "winner": 2,
+      "moves": 76,
+      "black_total": 38,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:28.992462"
+    },
+    {
+      "game_no": 122,
+      "winner": 1,
+      "moves": 136,
+      "black_total": 59,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:29.311166"
+    },
+    {
+      "game_no": 123,
+      "winner": 1,
+      "moves": 124,
+      "black_total": 48,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:29.539429"
+    },
+    {
+      "game_no": 124,
+      "winner": 2,
+      "moves": 58,
+      "black_total": 31,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:29.708349"
+    },
+    {
+      "game_no": 125,
+      "winner": 1,
+      "moves": 110,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:30.120925"
+    },
+    {
+      "game_no": 126,
+      "winner": 1,
+      "moves": 135,
+      "black_total": 62,
+      "white_total": 17.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:30.586799"
+    },
+    {
+      "game_no": 127,
+      "winner": 1,
+      "moves": 156,
+      "black_total": 77,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:30.978151"
+    },
+    {
+      "game_no": 128,
+      "winner": 1,
+      "moves": 186,
+      "black_total": 61,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:31.479018"
+    },
+    {
+      "game_no": 129,
+      "winner": 1,
+      "moves": 200,
+      "black_total": 76,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:31.998185"
+    },
+    {
+      "game_no": 130,
+      "winner": 2,
+      "moves": 135,
+      "black_total": 10,
+      "white_total": 70.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:32.441786"
+    },
+    {
+      "game_no": 131,
+      "winner": 1,
+      "moves": 76,
+      "black_total": 39,
+      "white_total": 30.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:32.635774"
+    },
+    {
+      "game_no": 132,
+      "winner": 2,
+      "moves": 181,
+      "black_total": 3,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:33.086423"
+    },
+    {
+      "game_no": 133,
+      "winner": 1,
+      "moves": 130,
+      "black_total": 55,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:33.439691"
+    },
+    {
+      "game_no": 134,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:33.675499"
+    },
+    {
+      "game_no": 135,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 32,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:34.119337"
+    },
+    {
+      "game_no": 136,
+      "winner": 1,
+      "moves": 72,
+      "black_total": 39,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:34.410156"
+    },
+    {
+      "game_no": 137,
+      "winner": 1,
+      "moves": 146,
+      "black_total": 64,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:34.818155"
+    },
+    {
+      "game_no": 138,
+      "winner": 2,
+      "moves": 79,
+      "black_total": 36,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:35.047134"
+    },
+    {
+      "game_no": 139,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 59,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:35.365300"
+    },
+    {
+      "game_no": 140,
+      "winner": 2,
+      "moves": 112,
+      "black_total": 37,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:35.629452"
+    },
+    {
+      "game_no": 141,
+      "winner": 1,
+      "moves": 175,
+      "black_total": 64,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:36.070383"
+    },
+    {
+      "game_no": 142,
+      "winner": 2,
+      "moves": 26,
+      "black_total": 13,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:36.161763"
+    },
+    {
+      "game_no": 143,
+      "winner": 2,
+      "moves": 151,
+      "black_total": 17,
+      "white_total": 67.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:36.492842"
+    },
+    {
+      "game_no": 144,
+      "winner": 1,
+      "moves": 142,
+      "black_total": 66,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:36.856236"
+    },
+    {
+      "game_no": 145,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 44,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:37.331082"
+    },
+    {
+      "game_no": 146,
+      "winner": 2,
+      "moves": 110,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:37.578195"
+    },
+    {
+      "game_no": 147,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 34,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:37.829848"
+    },
+    {
+      "game_no": 148,
+      "winner": 2,
+      "moves": 103,
+      "black_total": 31,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:38.154650"
+    },
+    {
+      "game_no": 149,
+      "winner": 2,
+      "moves": 159,
+      "black_total": 18,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:38.602945"
+    },
+    {
+      "game_no": 150,
+      "winner": 2,
+      "moves": 77,
+      "black_total": 34,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:38.833569"
+    },
+    {
+      "game_no": 151,
+      "winner": 1,
+      "moves": 122,
+      "black_total": 62,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:39.207750"
+    },
+    {
+      "game_no": 152,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 23,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:39.554535"
+    },
+    {
+      "game_no": 153,
+      "winner": 2,
+      "moves": 138,
+      "black_total": 14,
+      "white_total": 68.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:39.935587"
+    },
+    {
+      "game_no": 154,
+      "winner": 2,
+      "moves": 65,
+      "black_total": 30,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:40.095066"
+    },
+    {
+      "game_no": 155,
+      "winner": 1,
+      "moves": 94,
+      "black_total": 42,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:40.665535"
+    },
+    {
+      "game_no": 156,
+      "winner": 2,
+      "moves": 132,
+      "black_total": 23,
+      "white_total": 59.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:40.981883"
+    },
+    {
+      "game_no": 157,
+      "winner": 1,
+      "moves": 124,
+      "black_total": 57,
+      "white_total": 25.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:41.317803"
+    },
+    {
+      "game_no": 158,
+      "winner": 1,
+      "moves": 133,
+      "black_total": 60,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:41.624372"
+    },
+    {
+      "game_no": 159,
+      "winner": 1,
+      "moves": 100,
+      "black_total": 42,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:41.868049"
+    },
+    {
+      "game_no": 160,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 33,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:42.101025"
+    },
+    {
+      "game_no": 161,
+      "winner": 1,
+      "moves": 129,
+      "black_total": 59,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:42.555150"
+    },
+    {
+      "game_no": 162,
+      "winner": 2,
+      "moves": 103,
+      "black_total": 36,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:42.796163"
+    },
+    {
+      "game_no": 163,
+      "winner": 1,
+      "moves": 126,
+      "black_total": 55,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:43.077036"
+    },
+    {
+      "game_no": 164,
+      "winner": 1,
+      "moves": 91,
+      "black_total": 41,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:43.330947"
+    },
+    {
+      "game_no": 165,
+      "winner": 2,
+      "moves": 119,
+      "black_total": 27,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:43.930349"
+    },
+    {
+      "game_no": 166,
+      "winner": 2,
+      "moves": 78,
+      "black_total": 37,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:44.178785"
+    },
+    {
+      "game_no": 167,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 35,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:44.465726"
+    },
+    {
+      "game_no": 168,
+      "winner": 1,
+      "moves": 103,
+      "black_total": 40,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:44.778849"
+    },
+    {
+      "game_no": 169,
+      "winner": 2,
+      "moves": 118,
+      "black_total": 27,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:45.033157"
+    },
+    {
+      "game_no": 170,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 33,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:45.311409"
+    },
+    {
+      "game_no": 171,
+      "winner": 2,
+      "moves": 164,
+      "black_total": 11,
+      "white_total": 73.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:45.686261"
+    },
+    {
+      "game_no": 172,
+      "winner": 2,
+      "moves": 186,
+      "black_total": 9,
+      "white_total": 68.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:46.130317"
+    },
+    {
+      "game_no": 173,
+      "winner": 1,
+      "moves": 159,
+      "black_total": 72,
+      "white_total": 9.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:46.501016"
+    },
+    {
+      "game_no": 174,
+      "winner": 1,
+      "moves": 176,
+      "black_total": 81,
+      "white_total": 3.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:46.900440"
+    },
+    {
+      "game_no": 175,
+      "winner": 1,
+      "moves": 156,
+      "black_total": 71,
+      "white_total": 12.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:47.530201"
+    },
+    {
+      "game_no": 176,
+      "winner": 1,
+      "moves": 76,
+      "black_total": 41,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:47.693241"
+    },
+    {
+      "game_no": 177,
+      "winner": 1,
+      "moves": 112,
+      "black_total": 43,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:47.922313"
+    },
+    {
+      "game_no": 178,
+      "winner": 2,
+      "moves": 93,
+      "black_total": 36,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:48.107976"
+    },
+    {
+      "game_no": 179,
+      "winner": 1,
+      "moves": 145,
+      "black_total": 73,
+      "white_total": 9.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:48.442367"
+    },
+    {
+      "game_no": 180,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 38,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:48.637595"
+    },
+    {
+      "game_no": 181,
+      "winner": 2,
+      "moves": 65,
+      "black_total": 31,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:48.887185"
+    },
+    {
+      "game_no": 182,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 43,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:49.138992"
+    },
+    {
+      "game_no": 183,
+      "winner": 1,
+      "moves": 124,
+      "black_total": 50,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:49.364376"
+    },
+    {
+      "game_no": 184,
+      "winner": 2,
+      "moves": 189,
+      "black_total": 0,
+      "white_total": 84.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:49.742199"
+    },
+    {
+      "game_no": 185,
+      "winner": 1,
+      "moves": 126,
+      "black_total": 63,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:50.237337"
+    },
+    {
+      "game_no": 186,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 41,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:50.454341"
+    },
+    {
+      "game_no": 187,
+      "winner": 1,
+      "moves": 121,
+      "black_total": 56,
+      "white_total": 21.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:50.704240"
+    },
+    {
+      "game_no": 188,
+      "winner": 2,
+      "moves": 176,
+      "black_total": 5,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:51.015805"
+    },
+    {
+      "game_no": 189,
+      "winner": 2,
+      "moves": 91,
+      "black_total": 35,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:51.219910"
+    },
+    {
+      "game_no": 190,
+      "winner": 1,
+      "moves": 145,
+      "black_total": 55,
+      "white_total": 25.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:51.509596"
+    },
+    {
+      "game_no": 191,
+      "winner": 2,
+      "moves": 102,
+      "black_total": 26,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:51.770993"
+    },
+    {
+      "game_no": 192,
+      "winner": 1,
+      "moves": 98,
+      "black_total": 46,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:52.011082"
+    },
+    {
+      "game_no": 193,
+      "winner": 1,
+      "moves": 91,
+      "black_total": 46,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:52.327191"
+    },
+    {
+      "game_no": 194,
+      "winner": 2,
+      "moves": 171,
+      "black_total": 4,
+      "white_total": 79.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:52.712747"
+    },
+    {
+      "game_no": 195,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 48,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:53.118514"
+    },
+    {
+      "game_no": 196,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 44,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:53.332632"
+    },
+    {
+      "game_no": 197,
+      "winner": 2,
+      "moves": 70,
+      "black_total": 31,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:53.503433"
+    },
+    {
+      "game_no": 198,
+      "winner": 2,
+      "moves": 116,
+      "black_total": 33,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:53.727119"
+    },
+    {
+      "game_no": 199,
+      "winner": 1,
+      "moves": 122,
+      "black_total": 62,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:54.666985"
+    },
+    {
+      "game_no": 200,
+      "winner": 2,
+      "moves": 156,
+      "black_total": 13,
+      "white_total": 66.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:55.683388"
+    },
+    {
+      "game_no": 201,
+      "winner": 1,
+      "moves": 84,
+      "black_total": 49,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:56.348538"
+    },
+    {
+      "game_no": 202,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 32,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:57.072972"
+    },
+    {
+      "game_no": 203,
+      "winner": 2,
+      "moves": 149,
+      "black_total": 8,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:57.988027"
+    },
+    {
+      "game_no": 204,
+      "winner": 2,
+      "moves": 104,
+      "black_total": 24,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:10:58.621215"
+    },
+    {
+      "game_no": 205,
+      "winner": 1,
+      "moves": 115,
+      "black_total": 55,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:00.009998"
+    },
+    {
+      "game_no": 206,
+      "winner": 1,
+      "moves": 97,
+      "black_total": 45,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:00.633480"
+    },
+    {
+      "game_no": 207,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 32,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:01.333078"
+    },
+    {
+      "game_no": 208,
+      "winner": 1,
+      "moves": 123,
+      "black_total": 45,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:02.069781"
+    },
+    {
+      "game_no": 209,
+      "winner": 1,
+      "moves": 136,
+      "black_total": 71,
+      "white_total": 11.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:03.099411"
+    },
+    {
+      "game_no": 210,
+      "winner": 1,
+      "moves": 117,
+      "black_total": 44,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:03.941757"
+    },
+    {
+      "game_no": 211,
+      "winner": 2,
+      "moves": 153,
+      "black_total": 17,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:04.850266"
+    },
+    {
+      "game_no": 212,
+      "winner": 1,
+      "moves": 108,
+      "black_total": 44,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:05.636304"
+    },
+    {
+      "game_no": 213,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 32,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:06.317340"
+    },
+    {
+      "game_no": 214,
+      "winner": 2,
+      "moves": 100,
+      "black_total": 34,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:07.033095"
+    },
+    {
+      "game_no": 215,
+      "winner": 2,
+      "moves": 191,
+      "black_total": 0,
+      "white_total": 84.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:08.814282"
+    },
+    {
+      "game_no": 216,
+      "winner": 1,
+      "moves": 93,
+      "black_total": 45,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:09.562147"
+    },
+    {
+      "game_no": 217,
+      "winner": 1,
+      "moves": 126,
+      "black_total": 55,
+      "white_total": 25.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:10.332426"
+    },
+    {
+      "game_no": 218,
+      "winner": 1,
+      "moves": 163,
+      "black_total": 71,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:11.294233"
+    },
+    {
+      "game_no": 219,
+      "winner": 1,
+      "moves": 119,
+      "black_total": 47,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:12.012432"
+    },
+    {
+      "game_no": 220,
+      "winner": 2,
+      "moves": 132,
+      "black_total": 22,
+      "white_total": 60.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:12.802532"
+    },
+    {
+      "game_no": 221,
+      "winner": 1,
+      "moves": 150,
+      "black_total": 62,
+      "white_total": 21.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:13.674946"
+    },
+    {
+      "game_no": 222,
+      "winner": 1,
+      "moves": 146,
+      "black_total": 65,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:14.474934"
+    },
+    {
+      "game_no": 223,
+      "winner": 2,
+      "moves": 122,
+      "black_total": 36,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:15.124604"
+    },
+    {
+      "game_no": 224,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 27,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:15.908725"
+    },
+    {
+      "game_no": 225,
+      "winner": 1,
+      "moves": 118,
+      "black_total": 52,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:17.808245"
+    },
+    {
+      "game_no": 226,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 35,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:18.710010"
+    },
+    {
+      "game_no": 227,
+      "winner": 2,
+      "moves": 83,
+      "black_total": 39,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:19.717493"
+    },
+    {
+      "game_no": 228,
+      "winner": 2,
+      "moves": 153,
+      "black_total": 16,
+      "white_total": 66.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:20.900798"
+    },
+    {
+      "game_no": 229,
+      "winner": 1,
+      "moves": 148,
+      "black_total": 62,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:21.857703"
+    },
+    {
+      "game_no": 230,
+      "winner": 2,
+      "moves": 182,
+      "black_total": 8,
+      "white_total": 72.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:22.999068"
+    },
+    {
+      "game_no": 231,
+      "winner": 1,
+      "moves": 144,
+      "black_total": 61,
+      "white_total": 11.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:23.843984"
+    },
+    {
+      "game_no": 232,
+      "winner": 2,
+      "moves": 80,
+      "black_total": 37,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:24.433594"
+    },
+    {
+      "game_no": 233,
+      "winner": 2,
+      "moves": 137,
+      "black_total": 40,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:25.153308"
+    },
+    {
+      "game_no": 234,
+      "winner": 2,
+      "moves": 116,
+      "black_total": 37,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:25.953244"
+    },
+    {
+      "game_no": 235,
+      "winner": 1,
+      "moves": 133,
+      "black_total": 65,
+      "white_total": 17.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:28.172953"
+    },
+    {
+      "game_no": 236,
+      "winner": 1,
+      "moves": 88,
+      "black_total": 44,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:28.961424"
+    },
+    {
+      "game_no": 237,
+      "winner": 2,
+      "moves": 139,
+      "black_total": 15,
+      "white_total": 65.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:30.011362"
+    },
+    {
+      "game_no": 238,
+      "winner": 1,
+      "moves": 99,
+      "black_total": 41,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:30.879097"
+    },
+    {
+      "game_no": 239,
+      "winner": 1,
+      "moves": 127,
+      "black_total": 64,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:31.915157"
+    },
+    {
+      "game_no": 240,
+      "winner": 2,
+      "moves": 107,
+      "black_total": 32,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:32.575045"
+    },
+    {
+      "game_no": 241,
+      "winner": 1,
+      "moves": 82,
+      "black_total": 43,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:33.110688"
+    },
+    {
+      "game_no": 242,
+      "winner": 2,
+      "moves": 112,
+      "black_total": 37,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:33.803667"
+    },
+    {
+      "game_no": 243,
+      "winner": 1,
+      "moves": 94,
+      "black_total": 42,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:34.397121"
+    },
+    {
+      "game_no": 244,
+      "winner": 2,
+      "moves": 77,
+      "black_total": 38,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:34.930730"
+    },
+    {
+      "game_no": 245,
+      "winner": 2,
+      "moves": 101,
+      "black_total": 34,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:36.292602"
+    },
+    {
+      "game_no": 246,
+      "winner": 1,
+      "moves": 118,
+      "black_total": 56,
+      "white_total": 24.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:37.031993"
+    },
+    {
+      "game_no": 247,
+      "winner": 2,
+      "moves": 75,
+      "black_total": 35,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:37.749515"
+    },
+    {
+      "game_no": 248,
+      "winner": 2,
+      "moves": 85,
+      "black_total": 39,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:38.381885"
+    },
+    {
+      "game_no": 249,
+      "winner": 2,
+      "moves": 149,
+      "black_total": 12,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:39.273600"
+    },
+    {
+      "game_no": 250,
+      "winner": 1,
+      "moves": 98,
+      "black_total": 44,
+      "white_total": 21.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:39.882731"
+    },
+    {
+      "game_no": 251,
+      "winner": 2,
+      "moves": 102,
+      "black_total": 37,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:40.596271"
+    },
+    {
+      "game_no": 252,
+      "winner": 1,
+      "moves": 56,
+      "black_total": 32,
+      "white_total": 27.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:41.096305"
+    },
+    {
+      "game_no": 253,
+      "winner": 2,
+      "moves": 86,
+      "black_total": 38,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:41.618890"
+    },
+    {
+      "game_no": 254,
+      "winner": 2,
+      "moves": 100,
+      "black_total": 28,
+      "white_total": 52.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:42.820376"
+    },
+    {
+      "game_no": 255,
+      "winner": 1,
+      "moves": 196,
+      "black_total": 78,
+      "white_total": 5.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:43.478537"
+    },
+    {
+      "game_no": 256,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 43,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:45.813367"
+    },
+    {
+      "game_no": 257,
+      "winner": 2,
+      "moves": 83,
+      "black_total": 39,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:46.441382"
+    },
+    {
+      "game_no": 258,
+      "winner": 2,
+      "moves": 118,
+      "black_total": 35,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:47.271636"
+    },
+    {
+      "game_no": 259,
+      "winner": 2,
+      "moves": 147,
+      "black_total": 17,
+      "white_total": 65.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:48.482040"
+    },
+    {
+      "game_no": 260,
+      "winner": 2,
+      "moves": 291,
+      "black_total": 11,
+      "white_total": 72.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:50.242185"
+    },
+    {
+      "game_no": 261,
+      "winner": 1,
+      "moves": 83,
+      "black_total": 41,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:50.809333"
+    },
+    {
+      "game_no": 262,
+      "winner": 2,
+      "moves": 139,
+      "black_total": 34,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:51.484868"
+    },
+    {
+      "game_no": 263,
+      "winner": 1,
+      "moves": 99,
+      "black_total": 42,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:52.110575"
+    },
+    {
+      "game_no": 264,
+      "winner": 2,
+      "moves": 207,
+      "black_total": 5,
+      "white_total": 79.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:53.447427"
+    },
+    {
+      "game_no": 265,
+      "winner": 2,
+      "moves": 110,
+      "black_total": 26,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:54.417443"
+    },
+    {
+      "game_no": 266,
+      "winner": 2,
+      "moves": 86,
+      "black_total": 33,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:56.296203"
+    },
+    {
+      "game_no": 267,
+      "winner": 2,
+      "moves": 169,
+      "black_total": 7,
+      "white_total": 75.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:57.466399"
+    },
+    {
+      "game_no": 268,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 34,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:58.142335"
+    },
+    {
+      "game_no": 269,
+      "winner": 2,
+      "moves": 118,
+      "black_total": 23,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:58.987286"
+    },
+    {
+      "game_no": 270,
+      "winner": 1,
+      "moves": 75,
+      "black_total": 40,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:11:59.501702"
+    },
+    {
+      "game_no": 271,
+      "winner": 1,
+      "moves": 137,
+      "black_total": 54,
+      "white_total": 28.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:00.291529"
+    },
+    {
+      "game_no": 272,
+      "winner": 1,
+      "moves": 160,
+      "black_total": 76,
+      "white_total": 6.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:01.329951"
+    },
+    {
+      "game_no": 273,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 35,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:01.891456"
+    },
+    {
+      "game_no": 274,
+      "winner": 2,
+      "moves": 77,
+      "black_total": 37,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:02.414512"
+    },
+    {
+      "game_no": 275,
+      "winner": 2,
+      "moves": 117,
+      "black_total": 11,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:03.409988"
+    },
+    {
+      "game_no": 276,
+      "winner": 2,
+      "moves": 96,
+      "black_total": 41,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:05.420222"
+    },
+    {
+      "game_no": 277,
+      "winner": 1,
+      "moves": 137,
+      "black_total": 61,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:06.677370"
+    },
+    {
+      "game_no": 278,
+      "winner": 2,
+      "moves": 102,
+      "black_total": 33,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:07.689891"
+    },
+    {
+      "game_no": 279,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 36,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:08.737248"
+    },
+    {
+      "game_no": 280,
+      "winner": 2,
+      "moves": 128,
+      "black_total": 39,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:09.464608"
+    },
+    {
+      "game_no": 281,
+      "winner": 2,
+      "moves": 151,
+      "black_total": 8,
+      "white_total": 75.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:10.387185"
+    },
+    {
+      "game_no": 282,
+      "winner": 2,
+      "moves": 161,
+      "black_total": 3,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:11.462151"
+    },
+    {
+      "game_no": 283,
+      "winner": 1,
+      "moves": 108,
+      "black_total": 54,
+      "white_total": 27.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:12.167537"
+    },
+    {
+      "game_no": 284,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 45,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:12.784257"
+    },
+    {
+      "game_no": 285,
+      "winner": 1,
+      "moves": 138,
+      "black_total": 53,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:13.562671"
+    },
+    {
+      "game_no": 286,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 56,
+      "white_total": 24.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:15.237216"
+    },
+    {
+      "game_no": 287,
+      "winner": 2,
+      "moves": 167,
+      "black_total": 2,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:16.382367"
+    },
+    {
+      "game_no": 288,
+      "winner": 2,
+      "moves": 86,
+      "black_total": 36,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:16.955118"
+    },
+    {
+      "game_no": 289,
+      "winner": 1,
+      "moves": 160,
+      "black_total": 70,
+      "white_total": 12.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:18.131894"
+    },
+    {
+      "game_no": 290,
+      "winner": 2,
+      "moves": 143,
+      "black_total": 9,
+      "white_total": 72.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:19.151631"
+    },
+    {
+      "game_no": 291,
+      "winner": 1,
+      "moves": 151,
+      "black_total": 46,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:20.927305"
+    },
+    {
+      "game_no": 292,
+      "winner": 2,
+      "moves": 161,
+      "black_total": 6,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:20.947291"
+    },
+    {
+      "game_no": 293,
+      "winner": 2,
+      "moves": 93,
+      "black_total": 36,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:21.475462"
+    },
+    {
+      "game_no": 294,
+      "winner": 2,
+      "moves": 128,
+      "black_total": 12,
+      "white_total": 66.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:22.437078"
+    },
+    {
+      "game_no": 295,
+      "winner": 1,
+      "moves": 117,
+      "black_total": 59,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:23.335604"
+    },
+    {
+      "game_no": 296,
+      "winner": 1,
+      "moves": 96,
+      "black_total": 46,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:24.053959"
+    },
+    {
+      "game_no": 297,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 36,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:25.651226"
+    },
+    {
+      "game_no": 298,
+      "winner": 2,
+      "moves": 161,
+      "black_total": 10,
+      "white_total": 72.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:26.934048"
+    },
+    {
+      "game_no": 299,
+      "winner": 1,
+      "moves": 106,
+      "black_total": 54,
+      "white_total": 26.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:27.711762"
+    },
+    {
+      "game_no": 300,
+      "winner": 2,
+      "moves": 177,
+      "black_total": 4,
+      "white_total": 79.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:29.336701"
+    },
+    {
+      "game_no": 301,
+      "winner": 2,
+      "moves": 101,
+      "black_total": 37,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:30.001155"
+    },
+    {
+      "game_no": 302,
+      "winner": 2,
+      "moves": 106,
+      "black_total": 40,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:30.801158"
+    },
+    {
+      "game_no": 303,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 34,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:31.701895"
+    },
+    {
+      "game_no": 304,
+      "winner": 2,
+      "moves": 152,
+      "black_total": 21,
+      "white_total": 62.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:32.817372"
+    },
+    {
+      "game_no": 305,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 39,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:33.878457"
+    },
+    {
+      "game_no": 306,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 36,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:34.255393"
+    },
+    {
+      "game_no": 307,
+      "winner": 1,
+      "moves": 136,
+      "black_total": 58,
+      "white_total": 21.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:35.272883"
+    },
+    {
+      "game_no": 308,
+      "winner": 2,
+      "moves": 87,
+      "black_total": 34,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:38.262852"
+    },
+    {
+      "game_no": 309,
+      "winner": 1,
+      "moves": 91,
+      "black_total": 40,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:39.031152"
+    },
+    {
+      "game_no": 310,
+      "winner": 2,
+      "moves": 78,
+      "black_total": 30,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:39.621043"
+    },
+    {
+      "game_no": 311,
+      "winner": 1,
+      "moves": 145,
+      "black_total": 65,
+      "white_total": 14.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:40.532151"
+    },
+    {
+      "game_no": 312,
+      "winner": 2,
+      "moves": 141,
+      "black_total": 12,
+      "white_total": 69.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:41.461495"
+    },
+    {
+      "game_no": 313,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 57,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:42.186079"
+    },
+    {
+      "game_no": 314,
+      "winner": 2,
+      "moves": 112,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:42.875055"
+    },
+    {
+      "game_no": 315,
+      "winner": 2,
+      "moves": 88,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:43.491138"
+    },
+    {
+      "game_no": 316,
+      "winner": 2,
+      "moves": 163,
+      "black_total": 2,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:44.696037"
+    },
+    {
+      "game_no": 317,
+      "winner": 2,
+      "moves": 94,
+      "black_total": 40,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:45.339045"
+    },
+    {
+      "game_no": 318,
+      "winner": 2,
+      "moves": 104,
+      "black_total": 39,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:46.981355"
+    },
+    {
+      "game_no": 319,
+      "winner": 1,
+      "moves": 93,
+      "black_total": 44,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:47.854775"
+    },
+    {
+      "game_no": 320,
+      "winner": 2,
+      "moves": 185,
+      "black_total": 11,
+      "white_total": 70.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:49.471626"
+    },
+    {
+      "game_no": 321,
+      "winner": 2,
+      "moves": 175,
+      "black_total": 11,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:12:51.069709"
+    },
+    {
+      "game_no": 322,
+      "winner": 2,
+      "moves": 95,
+      "black_total": 39,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:13:32.482114"
+    },
+    {
+      "game_no": 323,
+      "winner": 1,
+      "moves": 173,
+      "black_total": 60,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:13:36.699409"
+    },
+    {
+      "game_no": 324,
+      "winner": 1,
+      "moves": 119,
+      "black_total": 45,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:13:37.449665"
+    },
+    {
+      "game_no": 325,
+      "winner": 1,
+      "moves": 122,
+      "black_total": 55,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:13:38.231012"
+    },
+    {
+      "game_no": 326,
+      "winner": 1,
+      "moves": 107,
+      "black_total": 45,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:13:38.803279"
+    },
+    {
+      "game_no": 327,
+      "winner": 2,
+      "moves": 103,
+      "black_total": 31,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:13:39.447774"
+    },
+    {
+      "game_no": 328,
+      "winner": 1,
+      "moves": 103,
+      "black_total": 45,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:12.312615"
+    },
+    {
+      "game_no": 329,
+      "winner": 1,
+      "moves": 105,
+      "black_total": 43,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:13.026476"
+    },
+    {
+      "game_no": 330,
+      "winner": 1,
+      "moves": 142,
+      "black_total": 66,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:13.986463"
+    },
+    {
+      "game_no": 331,
+      "winner": 2,
+      "moves": 130,
+      "black_total": 36,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:14.774863"
+    },
+    {
+      "game_no": 332,
+      "winner": 2,
+      "moves": 50,
+      "black_total": 25,
+      "white_total": 27.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:15.232349"
+    },
+    {
+      "game_no": 333,
+      "winner": 2,
+      "moves": 94,
+      "black_total": 33,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:15.845284"
+    },
+    {
+      "game_no": 334,
+      "winner": 2,
+      "moves": 123,
+      "black_total": 37,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:16.541866"
+    },
+    {
+      "game_no": 335,
+      "winner": 2,
+      "moves": 155,
+      "black_total": 4,
+      "white_total": 78.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:17.602505"
+    },
+    {
+      "game_no": 336,
+      "winner": 2,
+      "moves": 142,
+      "black_total": 17,
+      "white_total": 59.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:18.506698"
+    },
+    {
+      "game_no": 337,
+      "winner": 2,
+      "moves": 120,
+      "black_total": 29,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:19.296924"
+    },
+    {
+      "game_no": 338,
+      "winner": 2,
+      "moves": 101,
+      "black_total": 39,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:27.033288"
+    },
+    {
+      "game_no": 339,
+      "winner": 2,
+      "moves": 139,
+      "black_total": 7,
+      "white_total": 74.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:27.917050"
+    },
+    {
+      "game_no": 340,
+      "winner": 1,
+      "moves": 151,
+      "black_total": 60,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:28.824578"
+    },
+    {
+      "game_no": 341,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:29.458788"
+    },
+    {
+      "game_no": 342,
+      "winner": 2,
+      "moves": 107,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:30.127052"
+    },
+    {
+      "game_no": 343,
+      "winner": 2,
+      "moves": 121,
+      "black_total": 23,
+      "white_total": 59.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:30.869523"
+    },
+    {
+      "game_no": 344,
+      "winner": 2,
+      "moves": 151,
+      "black_total": 9,
+      "white_total": 73.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:31.827765"
+    },
+    {
+      "game_no": 345,
+      "winner": 1,
+      "moves": 117,
+      "black_total": 52,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:32.561127"
+    },
+    {
+      "game_no": 346,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 36,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:33.251335"
+    },
+    {
+      "game_no": 347,
+      "winner": 2,
+      "moves": 169,
+      "black_total": 8,
+      "white_total": 69.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:34.252094"
+    },
+    {
+      "game_no": 348,
+      "winner": 2,
+      "moves": 154,
+      "black_total": 4,
+      "white_total": 79.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:36.548334"
+    },
+    {
+      "game_no": 349,
+      "winner": 2,
+      "moves": 129,
+      "black_total": 33,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:37.481882"
+    },
+    {
+      "game_no": 350,
+      "winner": 2,
+      "moves": 74,
+      "black_total": 27,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:38.288888"
+    },
+    {
+      "game_no": 351,
+      "winner": 1,
+      "moves": 144,
+      "black_total": 60,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:39.363829"
+    },
+    {
+      "game_no": 352,
+      "winner": 2,
+      "moves": 109,
+      "black_total": 37,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:40.056765"
+    },
+    {
+      "game_no": 353,
+      "winner": 2,
+      "moves": 167,
+      "black_total": 2,
+      "white_total": 81.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:41.151161"
+    },
+    {
+      "game_no": 354,
+      "winner": 2,
+      "moves": 141,
+      "black_total": 7,
+      "white_total": 72.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:42.293286"
+    },
+    {
+      "game_no": 355,
+      "winner": 2,
+      "moves": 155,
+      "black_total": 5,
+      "white_total": 76.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:43.214202"
+    },
+    {
+      "game_no": 356,
+      "winner": 2,
+      "moves": 85,
+      "black_total": 34,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:43.852732"
+    },
+    {
+      "game_no": 357,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 35,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:15:44.513365"
+    },
+    {
+      "game_no": 358,
+      "winner": 2,
+      "moves": 117,
+      "black_total": 37,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:00.301266"
+    },
+    {
+      "game_no": 359,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 23,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:01.181199"
+    },
+    {
+      "game_no": 360,
+      "winner": 2,
+      "moves": 87,
+      "black_total": 29,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:01.928283"
+    },
+    {
+      "game_no": 361,
+      "winner": 2,
+      "moves": 150,
+      "black_total": 19,
+      "white_total": 61.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:02.996385"
+    },
+    {
+      "game_no": 362,
+      "winner": 2,
+      "moves": 85,
+      "black_total": 38,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:03.532511"
+    },
+    {
+      "game_no": 363,
+      "winner": 2,
+      "moves": 128,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:04.243863"
+    },
+    {
+      "game_no": 364,
+      "winner": 1,
+      "moves": 157,
+      "black_total": 65,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:05.340494"
+    },
+    {
+      "game_no": 365,
+      "winner": 2,
+      "moves": 171,
+      "black_total": 18,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:06.312160"
+    },
+    {
+      "game_no": 366,
+      "winner": 1,
+      "moves": 87,
+      "black_total": 38,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:06.897254"
+    },
+    {
+      "game_no": 367,
+      "winner": 2,
+      "moves": 91,
+      "black_total": 33,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:07.461152"
+    },
+    {
+      "game_no": 368,
+      "winner": 1,
+      "moves": 130,
+      "black_total": 43,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:09.398529"
+    },
+    {
+      "game_no": 369,
+      "winner": 2,
+      "moves": 109,
+      "black_total": 29,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:10.178045"
+    },
+    {
+      "game_no": 370,
+      "winner": 1,
+      "moves": 95,
+      "black_total": 43,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:10.836435"
+    },
+    {
+      "game_no": 371,
+      "winner": 1,
+      "moves": 90,
+      "black_total": 45,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:11.429501"
+    },
+    {
+      "game_no": 372,
+      "winner": 2,
+      "moves": 162,
+      "black_total": 18,
+      "white_total": 65.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:12.363396"
+    },
+    {
+      "game_no": 373,
+      "winner": 1,
+      "moves": 330,
+      "black_total": 72,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:14.474481"
+    },
+    {
+      "game_no": 374,
+      "winner": 1,
+      "moves": 173,
+      "black_total": 64,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:15.455944"
+    },
+    {
+      "game_no": 375,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 41,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:16.031892"
+    },
+    {
+      "game_no": 376,
+      "winner": 1,
+      "moves": 147,
+      "black_total": 62,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:16.921543"
+    },
+    {
+      "game_no": 377,
+      "winner": 1,
+      "moves": 115,
+      "black_total": 53,
+      "white_total": 25.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:17.638365"
+    },
+    {
+      "game_no": 378,
+      "winner": 1,
+      "moves": 160,
+      "black_total": 73,
+      "white_total": 8.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:19.940179"
+    },
+    {
+      "game_no": 379,
+      "winner": 1,
+      "moves": 152,
+      "black_total": 72,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:21.164865"
+    },
+    {
+      "game_no": 380,
+      "winner": 1,
+      "moves": 119,
+      "black_total": 46,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:21.872403"
+    },
+    {
+      "game_no": 381,
+      "winner": 1,
+      "moves": 106,
+      "black_total": 51,
+      "white_total": 27.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:22.696785"
+    },
+    {
+      "game_no": 382,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 28,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:23.311156"
+    },
+    {
+      "game_no": 383,
+      "winner": 2,
+      "moves": 152,
+      "black_total": 26,
+      "white_total": 55.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:24.161177"
+    },
+    {
+      "game_no": 384,
+      "winner": 1,
+      "moves": 216,
+      "black_total": 81,
+      "white_total": 3.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:25.441884"
+    },
+    {
+      "game_no": 385,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 12,
+      "white_total": 62.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:26.125471"
+    },
+    {
+      "game_no": 386,
+      "winner": 2,
+      "moves": 80,
+      "black_total": 34,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:26.697235"
+    },
+    {
+      "game_no": 387,
+      "winner": 2,
+      "moves": 146,
+      "black_total": 16,
+      "white_total": 60.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:27.480993"
+    },
+    {
+      "game_no": 388,
+      "winner": 2,
+      "moves": 162,
+      "black_total": 5,
+      "white_total": 75.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:30.116956"
+    },
+    {
+      "game_no": 389,
+      "winner": 1,
+      "moves": 139,
+      "black_total": 59,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:31.077548"
+    },
+    {
+      "game_no": 390,
+      "winner": 2,
+      "moves": 175,
+      "black_total": 8,
+      "white_total": 75.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:32.162475"
+    },
+    {
+      "game_no": 391,
+      "winner": 1,
+      "moves": 97,
+      "black_total": 43,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:32.777003"
+    },
+    {
+      "game_no": 392,
+      "winner": 1,
+      "moves": 96,
+      "black_total": 45,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:33.371985"
+    },
+    {
+      "game_no": 393,
+      "winner": 1,
+      "moves": 126,
+      "black_total": 51,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:34.125124"
+    },
+    {
+      "game_no": 394,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 34,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:34.741258"
+    },
+    {
+      "game_no": 395,
+      "winner": 2,
+      "moves": 215,
+      "black_total": 11,
+      "white_total": 72.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:36.104589"
+    },
+    {
+      "game_no": 396,
+      "winner": 1,
+      "moves": 142,
+      "black_total": 63,
+      "white_total": 19.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:37.051301"
+    },
+    {
+      "game_no": 397,
+      "winner": 2,
+      "moves": 157,
+      "black_total": 5,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:38.014285"
+    },
+    {
+      "game_no": 398,
+      "winner": 1,
+      "moves": 132,
+      "black_total": 66,
+      "white_total": 14.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:40.140558"
+    },
+    {
+      "game_no": 399,
+      "winner": 1,
+      "moves": 136,
+      "black_total": 67,
+      "white_total": 12.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:41.089737"
+    },
+    {
+      "game_no": 400,
+      "winner": 2,
+      "moves": 95,
+      "black_total": 31,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:41.702872"
+    },
+    {
+      "game_no": 401,
+      "winner": 1,
+      "moves": 142,
+      "black_total": 65,
+      "white_total": 9.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:42.478939"
+    },
+    {
+      "game_no": 402,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 39,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:42.981947"
+    },
+    {
+      "game_no": 403,
+      "winner": 2,
+      "moves": 164,
+      "black_total": 25,
+      "white_total": 57.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:43.914515"
+    },
+    {
+      "game_no": 404,
+      "winner": 2,
+      "moves": 78,
+      "black_total": 32,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:44.439895"
+    },
+    {
+      "game_no": 405,
+      "winner": 2,
+      "moves": 145,
+      "black_total": 18,
+      "white_total": 63.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:45.252451"
+    },
+    {
+      "game_no": 406,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 27,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:45.876920"
+    },
+    {
+      "game_no": 407,
+      "winner": 1,
+      "moves": 262,
+      "black_total": 78,
+      "white_total": 5.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:47.589734"
+    },
+    {
+      "game_no": 408,
+      "winner": 1,
+      "moves": 149,
+      "black_total": 75,
+      "white_total": 7.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:50.114335"
+    },
+    {
+      "game_no": 409,
+      "winner": 2,
+      "moves": 26,
+      "black_total": 13,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:50.372103"
+    },
+    {
+      "game_no": 410,
+      "winner": 2,
+      "moves": 144,
+      "black_total": 40,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:51.094604"
+    },
+    {
+      "game_no": 411,
+      "winner": 2,
+      "moves": 88,
+      "black_total": 35,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:51.662550"
+    },
+    {
+      "game_no": 412,
+      "winner": 1,
+      "moves": 119,
+      "black_total": 45,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:52.390617"
+    },
+    {
+      "game_no": 413,
+      "winner": 1,
+      "moves": 96,
+      "black_total": 43,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:53.016375"
+    },
+    {
+      "game_no": 414,
+      "winner": 1,
+      "moves": 96,
+      "black_total": 46,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:53.630307"
+    },
+    {
+      "game_no": 415,
+      "winner": 2,
+      "moves": 93,
+      "black_total": 40,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:54.215900"
+    },
+    {
+      "game_no": 416,
+      "winner": 2,
+      "moves": 103,
+      "black_total": 33,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:54.827679"
+    },
+    {
+      "game_no": 417,
+      "winner": 2,
+      "moves": 157,
+      "black_total": 17,
+      "white_total": 66.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:55.744680"
+    },
+    {
+      "game_no": 418,
+      "winner": 2,
+      "moves": 187,
+      "black_total": 3,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:58.081343"
+    },
+    {
+      "game_no": 419,
+      "winner": 1,
+      "moves": 99,
+      "black_total": 43,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:58.809833"
+    },
+    {
+      "game_no": 420,
+      "winner": 2,
+      "moves": 76,
+      "black_total": 38,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:16:59.364339"
+    },
+    {
+      "game_no": 421,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 39,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:00.019906"
+    },
+    {
+      "game_no": 422,
+      "winner": 2,
+      "moves": 139,
+      "black_total": 9,
+      "white_total": 68.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:00.846904"
+    },
+    {
+      "game_no": 423,
+      "winner": 1,
+      "moves": 131,
+      "black_total": 52,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:01.573650"
+    },
+    {
+      "game_no": 424,
+      "winner": 2,
+      "moves": 80,
+      "black_total": 35,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:02.129850"
+    },
+    {
+      "game_no": 425,
+      "winner": 2,
+      "moves": 74,
+      "black_total": 35,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:02.653258"
+    },
+    {
+      "game_no": 426,
+      "winner": 2,
+      "moves": 87,
+      "black_total": 35,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:03.216024"
+    },
+    {
+      "game_no": 427,
+      "winner": 1,
+      "moves": 82,
+      "black_total": 47,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:03.787219"
+    },
+    {
+      "game_no": 428,
+      "winner": 1,
+      "moves": 172,
+      "black_total": 78,
+      "white_total": 4.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:05.125705"
+    },
+    {
+      "game_no": 429,
+      "winner": 2,
+      "moves": 78,
+      "black_total": 36,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:05.400396"
+    },
+    {
+      "game_no": 430,
+      "winner": 1,
+      "moves": 134,
+      "black_total": 64,
+      "white_total": 17.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:05.713462"
+    },
+    {
+      "game_no": 431,
+      "winner": 1,
+      "moves": 120,
+      "black_total": 48,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:05.924523"
+    },
+    {
+      "game_no": 432,
+      "winner": 1,
+      "moves": 84,
+      "black_total": 43,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:06.108643"
+    },
+    {
+      "game_no": 433,
+      "winner": 2,
+      "moves": 228,
+      "black_total": 35,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:06.544125"
+    },
+    {
+      "game_no": 434,
+      "winner": 1,
+      "moves": 345,
+      "black_total": 61,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:07.540034"
+    },
+    {
+      "game_no": 435,
+      "winner": 1,
+      "moves": 134,
+      "black_total": 62,
+      "white_total": 21.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:07.841751"
+    },
+    {
+      "game_no": 436,
+      "winner": 2,
+      "moves": 123,
+      "black_total": 24,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:08.084491"
+    },
+    {
+      "game_no": 437,
+      "winner": 1,
+      "moves": 139,
+      "black_total": 63,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:08.382269"
+    },
+    {
+      "game_no": 438,
+      "winner": 2,
+      "moves": 67,
+      "black_total": 34,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:09.050687"
+    },
+    {
+      "game_no": 439,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 33,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:09.247131"
+    },
+    {
+      "game_no": 440,
+      "winner": 1,
+      "moves": 170,
+      "black_total": 73,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:09.635640"
+    },
+    {
+      "game_no": 441,
+      "winner": 2,
+      "moves": 137,
+      "black_total": 12,
+      "white_total": 70.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:09.960262"
+    },
+    {
+      "game_no": 442,
+      "winner": 2,
+      "moves": 96,
+      "black_total": 34,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:10.229833"
+    },
+    {
+      "game_no": 443,
+      "winner": 2,
+      "moves": 122,
+      "black_total": 41,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:10.562235"
+    },
+    {
+      "game_no": 444,
+      "winner": 1,
+      "moves": 110,
+      "black_total": 45,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:10.893836"
+    },
+    {
+      "game_no": 445,
+      "winner": 2,
+      "moves": 172,
+      "black_total": 4,
+      "white_total": 76.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:11.349606"
+    },
+    {
+      "game_no": 446,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 38,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:11.585980"
+    },
+    {
+      "game_no": 447,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 35,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:11.830356"
+    },
+    {
+      "game_no": 448,
+      "winner": 1,
+      "moves": 165,
+      "black_total": 74,
+      "white_total": 8.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:12.892995"
+    },
+    {
+      "game_no": 449,
+      "winner": 1,
+      "moves": 135,
+      "black_total": 63,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:13.402531"
+    },
+    {
+      "game_no": 450,
+      "winner": 1,
+      "moves": 148,
+      "black_total": 68,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:13.794785"
+    },
+    {
+      "game_no": 451,
+      "winner": 2,
+      "moves": 76,
+      "black_total": 39,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:13.992553"
+    },
+    {
+      "game_no": 452,
+      "winner": 1,
+      "moves": 119,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:14.258878"
+    },
+    {
+      "game_no": 453,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 37,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:14.464052"
+    },
+    {
+      "game_no": 454,
+      "winner": 1,
+      "moves": 122,
+      "black_total": 43,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:14.692730"
+    },
+    {
+      "game_no": 455,
+      "winner": 1,
+      "moves": 243,
+      "black_total": 39,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:15.272243"
+    },
+    {
+      "game_no": 456,
+      "winner": 2,
+      "moves": 83,
+      "black_total": 31,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:15.581165"
+    },
+    {
+      "game_no": 457,
+      "winner": 2,
+      "moves": 105,
+      "black_total": 36,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:15.880164"
+    },
+    {
+      "game_no": 458,
+      "winner": 2,
+      "moves": 36,
+      "black_total": 17,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:16.522883"
+    },
+    {
+      "game_no": 459,
+      "winner": 2,
+      "moves": 163,
+      "black_total": 14,
+      "white_total": 69.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:16.864029"
+    },
+    {
+      "game_no": 460,
+      "winner": 1,
+      "moves": 138,
+      "black_total": 60,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:17.185981"
+    },
+    {
+      "game_no": 461,
+      "winner": 2,
+      "moves": 119,
+      "black_total": 21,
+      "white_total": 62.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:17.478177"
+    },
+    {
+      "game_no": 462,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 33,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:17.740328"
+    },
+    {
+      "game_no": 463,
+      "winner": 2,
+      "moves": 84,
+      "black_total": 40,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:17.958105"
+    },
+    {
+      "game_no": 464,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 6,
+      "white_total": 62.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:18.258044"
+    },
+    {
+      "game_no": 465,
+      "winner": 2,
+      "moves": 145,
+      "black_total": 8,
+      "white_total": 73.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:18.595732"
+    },
+    {
+      "game_no": 466,
+      "winner": 1,
+      "moves": 193,
+      "black_total": 78,
+      "white_total": 5.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:19.218552"
+    },
+    {
+      "game_no": 467,
+      "winner": 1,
+      "moves": 124,
+      "black_total": 70,
+      "white_total": 11.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:19.534145"
+    },
+    {
+      "game_no": 468,
+      "winner": 2,
+      "moves": 58,
+      "black_total": 28,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:20.353014"
+    },
+    {
+      "game_no": 469,
+      "winner": 2,
+      "moves": 107,
+      "black_total": 29,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:20.599790"
+    },
+    {
+      "game_no": 470,
+      "winner": 2,
+      "moves": 177,
+      "black_total": 2,
+      "white_total": 78.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:21.191573"
+    },
+    {
+      "game_no": 471,
+      "winner": 2,
+      "moves": 273,
+      "black_total": 13,
+      "white_total": 68.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:21.931306"
+    },
+    {
+      "game_no": 472,
+      "winner": 2,
+      "moves": 126,
+      "black_total": 32,
+      "white_total": 52.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:22.188314"
+    },
+    {
+      "game_no": 473,
+      "winner": 1,
+      "moves": 162,
+      "black_total": 70,
+      "white_total": 12.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:22.533054"
+    },
+    {
+      "game_no": 474,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 30,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:22.756840"
+    },
+    {
+      "game_no": 475,
+      "winner": 2,
+      "moves": 28,
+      "black_total": 15,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:22.842662"
+    },
+    {
+      "game_no": 476,
+      "winner": 1,
+      "moves": 150,
+      "black_total": 73,
+      "white_total": 7.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:23.154490"
+    },
+    {
+      "game_no": 477,
+      "winner": 1,
+      "moves": 102,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:23.355259"
+    },
+    {
+      "game_no": 478,
+      "winner": 1,
+      "moves": 167,
+      "black_total": 64,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:24.209647"
+    },
+    {
+      "game_no": 479,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 34,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:24.395269"
+    },
+    {
+      "game_no": 480,
+      "winner": 2,
+      "moves": 121,
+      "black_total": 27,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:24.619989"
+    },
+    {
+      "game_no": 481,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 27,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:24.821124"
+    },
+    {
+      "game_no": 482,
+      "winner": 2,
+      "moves": 95,
+      "black_total": 27,
+      "white_total": 52.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:25.028220"
+    },
+    {
+      "game_no": 483,
+      "winner": 1,
+      "moves": 231,
+      "black_total": 49,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:25.573484"
+    },
+    {
+      "game_no": 484,
+      "winner": 2,
+      "moves": 85,
+      "black_total": 33,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:25.799786"
+    },
+    {
+      "game_no": 485,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 44,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:26.070036"
+    },
+    {
+      "game_no": 486,
+      "winner": 2,
+      "moves": 171,
+      "black_total": 8,
+      "white_total": 74.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:26.507451"
+    },
+    {
+      "game_no": 487,
+      "winner": 1,
+      "moves": 86,
+      "black_total": 40,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:26.724533"
+    },
+    {
+      "game_no": 488,
+      "winner": 1,
+      "moves": 128,
+      "black_total": 62,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:27.809754"
+    },
+    {
+      "game_no": 489,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 42,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:28.101678"
+    },
+    {
+      "game_no": 490,
+      "winner": 2,
+      "moves": 72,
+      "black_total": 34,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:28.336312"
+    },
+    {
+      "game_no": 491,
+      "winner": 2,
+      "moves": 281,
+      "black_total": 19,
+      "white_total": 61.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:29.038502"
+    },
+    {
+      "game_no": 492,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 44,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:29.316721"
+    },
+    {
+      "game_no": 493,
+      "winner": 1,
+      "moves": 148,
+      "black_total": 73,
+      "white_total": 9.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:29.668090"
+    },
+    {
+      "game_no": 494,
+      "winner": 2,
+      "moves": 163,
+      "black_total": 8,
+      "white_total": 75.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:29.997163"
+    },
+    {
+      "game_no": 495,
+      "winner": 1,
+      "moves": 160,
+      "black_total": 73,
+      "white_total": 9.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:30.340820"
+    },
+    {
+      "game_no": 496,
+      "winner": 2,
+      "moves": 80,
+      "black_total": 37,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:30.552832"
+    },
+    {
+      "game_no": 497,
+      "winner": 2,
+      "moves": 115,
+      "black_total": 30,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:30.820279"
+    },
+    {
+      "game_no": 498,
+      "winner": 1,
+      "moves": 34,
+      "black_total": 19,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:31.577373"
+    },
+    {
+      "game_no": 499,
+      "winner": 1,
+      "moves": 159,
+      "black_total": 65,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:31.924774"
+    },
+    {
+      "game_no": 500,
+      "winner": 1,
+      "moves": 109,
+      "black_total": 49,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:32.194531"
+    },
+    {
+      "game_no": 501,
+      "winner": 1,
+      "moves": 132,
+      "black_total": 64,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:32.537937"
+    },
+    {
+      "game_no": 502,
+      "winner": 1,
+      "moves": 124,
+      "black_total": 59,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:32.875925"
+    },
+    {
+      "game_no": 503,
+      "winner": 2,
+      "moves": 72,
+      "black_total": 28,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:33.087209"
+    },
+    {
+      "game_no": 504,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 49,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:33.381957"
+    },
+    {
+      "game_no": 505,
+      "winner": 1,
+      "moves": 182,
+      "black_total": 79,
+      "white_total": 4.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:33.913554"
+    },
+    {
+      "game_no": 506,
+      "winner": 1,
+      "moves": 142,
+      "black_total": 62,
+      "white_total": 18.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:34.231083"
+    },
+    {
+      "game_no": 507,
+      "winner": 2,
+      "moves": 116,
+      "black_total": 36,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:34.509441"
+    },
+    {
+      "game_no": 508,
+      "winner": 2,
+      "moves": 79,
+      "black_total": 31,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:35.348591"
+    },
+    {
+      "game_no": 509,
+      "winner": 1,
+      "moves": 159,
+      "black_total": 74,
+      "white_total": 7.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:35.687241"
+    },
+    {
+      "game_no": 510,
+      "winner": 2,
+      "moves": 99,
+      "black_total": 40,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:35.881525"
+    },
+    {
+      "game_no": 511,
+      "winner": 1,
+      "moves": 88,
+      "black_total": 42,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:36.081179"
+    },
+    {
+      "game_no": 512,
+      "winner": 1,
+      "moves": 134,
+      "black_total": 66,
+      "white_total": 17.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:36.486947"
+    },
+    {
+      "game_no": 513,
+      "winner": 1,
+      "moves": 115,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:36.782439"
+    },
+    {
+      "game_no": 514,
+      "winner": 2,
+      "moves": 118,
+      "black_total": 34,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:37.165381"
+    },
+    {
+      "game_no": 515,
+      "winner": 2,
+      "moves": 36,
+      "black_total": 19,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:37.283943"
+    },
+    {
+      "game_no": 516,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 28,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:37.482360"
+    },
+    {
+      "game_no": 517,
+      "winner": 2,
+      "moves": 135,
+      "black_total": 10,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:37.807145"
+    },
+    {
+      "game_no": 518,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 38,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:38.638087"
+    },
+    {
+      "game_no": 519,
+      "winner": 2,
+      "moves": 80,
+      "black_total": 38,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:38.813877"
+    },
+    {
+      "game_no": 520,
+      "winner": 2,
+      "moves": 86,
+      "black_total": 34,
+      "white_total": 44.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:38.993472"
+    },
+    {
+      "game_no": 521,
+      "winner": 2,
+      "moves": 264,
+      "black_total": 35,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:39.518396"
+    },
+    {
+      "game_no": 522,
+      "winner": 2,
+      "moves": 169,
+      "black_total": 0,
+      "white_total": 84.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:40.048612"
+    },
+    {
+      "game_no": 523,
+      "winner": 1,
+      "moves": 66,
+      "black_total": 35,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:40.486277"
+    },
+    {
+      "game_no": 524,
+      "winner": 2,
+      "moves": 166,
+      "black_total": 16,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:41.651407"
+    },
+    {
+      "game_no": 525,
+      "winner": 1,
+      "moves": 122,
+      "black_total": 63,
+      "white_total": 14.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:42.645080"
+    },
+    {
+      "game_no": 526,
+      "winner": 1,
+      "moves": 90,
+      "black_total": 41,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:43.315268"
+    },
+    {
+      "game_no": 527,
+      "winner": 1,
+      "moves": 127,
+      "black_total": 65,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:44.140712"
+    },
+    {
+      "game_no": 528,
+      "winner": 2,
+      "moves": 291,
+      "black_total": 27,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:47.871004"
+    },
+    {
+      "game_no": 529,
+      "winner": 2,
+      "moves": 40,
+      "black_total": 20,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:48.280490"
+    },
+    {
+      "game_no": 530,
+      "winner": 2,
+      "moves": 109,
+      "black_total": 41,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:48.949947"
+    },
+    {
+      "game_no": 531,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 32,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:49.620653"
+    },
+    {
+      "game_no": 532,
+      "winner": 1,
+      "moves": 227,
+      "black_total": 74,
+      "white_total": 7.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:50.886575"
+    },
+    {
+      "game_no": 533,
+      "winner": 2,
+      "moves": 219,
+      "black_total": 4,
+      "white_total": 77.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:52.278286"
+    },
+    {
+      "game_no": 534,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 39,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:53.036523"
+    },
+    {
+      "game_no": 535,
+      "winner": 1,
+      "moves": 78,
+      "black_total": 39,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:53.597133"
+    },
+    {
+      "game_no": 536,
+      "winner": 1,
+      "moves": 156,
+      "black_total": 68,
+      "white_total": 11.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:54.596736"
+    },
+    {
+      "game_no": 537,
+      "winner": 2,
+      "moves": 101,
+      "black_total": 30,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:55.228583"
+    },
+    {
+      "game_no": 538,
+      "winner": 1,
+      "moves": 160,
+      "black_total": 79,
+      "white_total": 4.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:57.921979"
+    },
+    {
+      "game_no": 539,
+      "winner": 2,
+      "moves": 167,
+      "black_total": 1,
+      "white_total": 82.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:17:59.136321"
+    },
+    {
+      "game_no": 540,
+      "winner": 2,
+      "moves": 149,
+      "black_total": 19,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:00.050433"
+    },
+    {
+      "game_no": 541,
+      "winner": 2,
+      "moves": 81,
+      "black_total": 36,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:00.626915"
+    },
+    {
+      "game_no": 542,
+      "winner": 2,
+      "moves": 117,
+      "black_total": 32,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:01.353518"
+    },
+    {
+      "game_no": 543,
+      "winner": 2,
+      "moves": 82,
+      "black_total": 33,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:01.970140"
+    },
+    {
+      "game_no": 544,
+      "winner": 1,
+      "moves": 114,
+      "black_total": 62,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:02.637058"
+    },
+    {
+      "game_no": 545,
+      "winner": 1,
+      "moves": 88,
+      "black_total": 46,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:03.180052"
+    },
+    {
+      "game_no": 546,
+      "winner": 1,
+      "moves": 105,
+      "black_total": 44,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:03.826995"
+    },
+    {
+      "game_no": 547,
+      "winner": 2,
+      "moves": 148,
+      "black_total": 18,
+      "white_total": 64.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:04.742745"
+    },
+    {
+      "game_no": 548,
+      "winner": 1,
+      "moves": 102,
+      "black_total": 42,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:07.110357"
+    },
+    {
+      "game_no": 549,
+      "winner": 1,
+      "moves": 114,
+      "black_total": 44,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:07.738452"
+    },
+    {
+      "game_no": 550,
+      "winner": 2,
+      "moves": 56,
+      "black_total": 29,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:08.296025"
+    },
+    {
+      "game_no": 551,
+      "winner": 1,
+      "moves": 126,
+      "black_total": 45,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:09.099974"
+    },
+    {
+      "game_no": 552,
+      "winner": 1,
+      "moves": 97,
+      "black_total": 45,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:09.812436"
+    },
+    {
+      "game_no": 553,
+      "winner": 1,
+      "moves": 112,
+      "black_total": 54,
+      "white_total": 26.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-03T21:18:10.622050"
+    },
+    {
+      "game_no": 554,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 38,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:27.235523"
+    },
+    {
+      "game_no": 555,
+      "winner": 1,
+      "moves": 145,
+      "black_total": 60,
+      "white_total": 21.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:27.602795"
+    },
+    {
+      "game_no": 556,
+      "winner": 1,
+      "moves": 108,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:27.882192"
+    },
+    {
+      "game_no": 557,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 49,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:28.212058"
+    },
+    {
+      "game_no": 558,
+      "winner": 1,
+      "moves": 112,
+      "black_total": 57,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:28.501530"
+    },
+    {
+      "game_no": 559,
+      "winner": 1,
+      "moves": 144,
+      "black_total": 68,
+      "white_total": 15.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:28.920688"
+    },
+    {
+      "game_no": 560,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 39,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:29.183417"
+    },
+    {
+      "game_no": 561,
+      "winner": 2,
+      "moves": 91,
+      "black_total": 40,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:29.458476"
+    },
+    {
+      "game_no": 562,
+      "winner": 1,
+      "moves": 94,
+      "black_total": 46,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:29.765787"
+    },
+    {
+      "game_no": 563,
+      "winner": 1,
+      "moves": 129,
+      "black_total": 59,
+      "white_total": 22.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:30.147009"
+    },
+    {
+      "game_no": 564,
+      "winner": 1,
+      "moves": 162,
+      "black_total": 74,
+      "white_total": 7.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:31.766936"
+    },
+    {
+      "game_no": 565,
+      "winner": 1,
+      "moves": 105,
+      "black_total": 50,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:32.136552"
+    },
+    {
+      "game_no": 566,
+      "winner": 1,
+      "moves": 102,
+      "black_total": 56,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:32.408783"
+    },
+    {
+      "game_no": 567,
+      "winner": 1,
+      "moves": 153,
+      "black_total": 59,
+      "white_total": 24.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:32.884855"
+    },
+    {
+      "game_no": 568,
+      "winner": 1,
+      "moves": 152,
+      "black_total": 72,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:33.336536"
+    },
+    {
+      "game_no": 569,
+      "winner": 2,
+      "moves": 126,
+      "black_total": 19,
+      "white_total": 57.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:33.756613"
+    },
+    {
+      "game_no": 570,
+      "winner": 1,
+      "moves": 185,
+      "black_total": 77,
+      "white_total": 5.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:34.280158"
+    },
+    {
+      "game_no": 571,
+      "winner": 2,
+      "moves": 92,
+      "black_total": 40,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:34.562730"
+    },
+    {
+      "game_no": 572,
+      "winner": 2,
+      "moves": 91,
+      "black_total": 35,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:34.893786"
+    },
+    {
+      "game_no": 573,
+      "winner": 1,
+      "moves": 149,
+      "black_total": 56,
+      "white_total": 17.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:35.419171"
+    },
+    {
+      "game_no": 574,
+      "winner": 2,
+      "moves": 77,
+      "black_total": 36,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:36.691328"
+    },
+    {
+      "game_no": 575,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 46,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:37.076883"
+    },
+    {
+      "game_no": 576,
+      "winner": 2,
+      "moves": 131,
+      "black_total": 19,
+      "white_total": 62.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:37.472308"
+    },
+    {
+      "game_no": 577,
+      "winner": 2,
+      "moves": 110,
+      "black_total": 24,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:37.767347"
+    },
+    {
+      "game_no": 578,
+      "winner": 1,
+      "moves": 111,
+      "black_total": 42,
+      "white_total": 35.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:38.046492"
+    },
+    {
+      "game_no": 579,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 32,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:38.353715"
+    },
+    {
+      "game_no": 580,
+      "winner": 1,
+      "moves": 151,
+      "black_total": 70,
+      "white_total": 10.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:38.792515"
+    },
+    {
+      "game_no": 581,
+      "winner": 2,
+      "moves": 97,
+      "black_total": 38,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:39.135622"
+    },
+    {
+      "game_no": 582,
+      "winner": 2,
+      "moves": 96,
+      "black_total": 37,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:39.455502"
+    },
+    {
+      "game_no": 583,
+      "winner": 1,
+      "moves": 111,
+      "black_total": 47,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:39.722450"
+    },
+    {
+      "game_no": 584,
+      "winner": 2,
+      "moves": 103,
+      "black_total": 36,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:40.944109"
+    },
+    {
+      "game_no": 585,
+      "winner": 2,
+      "moves": 98,
+      "black_total": 29,
+      "white_total": 51.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:41.285533"
+    },
+    {
+      "game_no": 586,
+      "winner": 2,
+      "moves": 82,
+      "black_total": 40,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:41.520629"
+    },
+    {
+      "game_no": 587,
+      "winner": 1,
+      "moves": 120,
+      "black_total": 47,
+      "white_total": 36.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:41.843376"
+    },
+    {
+      "game_no": 588,
+      "winner": 2,
+      "moves": 59,
+      "black_total": 30,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:42.122678"
+    },
+    {
+      "game_no": 589,
+      "winner": 2,
+      "moves": 161,
+      "black_total": 2,
+      "white_total": 81.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:42.696368"
+    },
+    {
+      "game_no": 590,
+      "winner": 2,
+      "moves": 57,
+      "black_total": 30,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:42.882406"
+    },
+    {
+      "game_no": 591,
+      "winner": 2,
+      "moves": 170,
+      "black_total": 24,
+      "white_total": 58.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:43.293674"
+    },
+    {
+      "game_no": 592,
+      "winner": 1,
+      "moves": 185,
+      "black_total": 75,
+      "white_total": 7.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:43.940237"
+    },
+    {
+      "game_no": 593,
+      "winner": 2,
+      "moves": 95,
+      "black_total": 38,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:44.222968"
+    },
+    {
+      "game_no": 594,
+      "winner": 1,
+      "moves": 122,
+      "black_total": 52,
+      "white_total": 28.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:45.536020"
+    },
+    {
+      "game_no": 595,
+      "winner": 2,
+      "moves": 151,
+      "black_total": 16,
+      "white_total": 65.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:45.921700"
+    },
+    {
+      "game_no": 596,
+      "winner": 1,
+      "moves": 86,
+      "black_total": 43,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:46.217377"
+    },
+    {
+      "game_no": 597,
+      "winner": 2,
+      "moves": 116,
+      "black_total": 37,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:46.559522"
+    },
+    {
+      "game_no": 598,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 47,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:46.821805"
+    },
+    {
+      "game_no": 599,
+      "winner": 2,
+      "moves": 144,
+      "black_total": 17,
+      "white_total": 67.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:47.217410"
+    },
+    {
+      "game_no": 600,
+      "winner": 1,
+      "moves": 178,
+      "black_total": 78,
+      "white_total": 5.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:47.678838"
+    },
+    {
+      "game_no": 601,
+      "winner": 2,
+      "moves": 117,
+      "black_total": 35,
+      "white_total": 47.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:47.984232"
+    },
+    {
+      "game_no": 602,
+      "winner": 2,
+      "moves": 52,
+      "black_total": 23,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:48.212613"
+    },
+    {
+      "game_no": 603,
+      "winner": 1,
+      "moves": 135,
+      "black_total": 61,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:48.620222"
+    },
+    {
+      "game_no": 604,
+      "winner": 2,
+      "moves": 142,
+      "black_total": 13,
+      "white_total": 65.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:49.893149"
+    },
+    {
+      "game_no": 605,
+      "winner": 2,
+      "moves": 94,
+      "black_total": 39,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:50.161486"
+    },
+    {
+      "game_no": 606,
+      "winner": 1,
+      "moves": 84,
+      "black_total": 41,
+      "white_total": 38.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:50.444408"
+    },
+    {
+      "game_no": 607,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 52,
+      "white_total": 31.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:50.762967"
+    },
+    {
+      "game_no": 608,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 42,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:50.985770"
+    },
+    {
+      "game_no": 609,
+      "winner": 1,
+      "moves": 104,
+      "black_total": 42,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:51.217752"
+    },
+    {
+      "game_no": 610,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 38,
+      "white_total": 40.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:51.416179"
+    },
+    {
+      "game_no": 611,
+      "winner": 2,
+      "moves": 81,
+      "black_total": 36,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:51.658256"
+    },
+    {
+      "game_no": 612,
+      "winner": 1,
+      "moves": 116,
+      "black_total": 47,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:52.036212"
+    },
+    {
+      "game_no": 613,
+      "winner": 2,
+      "moves": 294,
+      "black_total": 21,
+      "white_total": 58.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:52.947061"
+    },
+    {
+      "game_no": 614,
+      "winner": 1,
+      "moves": 134,
+      "black_total": 60,
+      "white_total": 23.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:54.232437"
+    },
+    {
+      "game_no": 615,
+      "winner": 1,
+      "moves": 100,
+      "black_total": 49,
+      "white_total": 32.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:54.524635"
+    },
+    {
+      "game_no": 616,
+      "winner": 1,
+      "moves": 162,
+      "black_total": 58,
+      "white_total": 25.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:54.970672"
+    },
+    {
+      "game_no": 617,
+      "winner": 2,
+      "moves": 156,
+      "black_total": 5,
+      "white_total": 76.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:55.453065"
+    },
+    {
+      "game_no": 618,
+      "winner": 2,
+      "moves": 109,
+      "black_total": 34,
+      "white_total": 49.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:55.695896"
+    },
+    {
+      "game_no": 619,
+      "winner": 1,
+      "moves": 101,
+      "black_total": 44,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:55.931559"
+    },
+    {
+      "game_no": 620,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 28,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:56.224655"
+    },
+    {
+      "game_no": 621,
+      "winner": 1,
+      "moves": 66,
+      "black_total": 36,
+      "white_total": 34.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:56.513897"
+    },
+    {
+      "game_no": 622,
+      "winner": 1,
+      "moves": 105,
+      "black_total": 53,
+      "white_total": 20.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:56.811483"
+    },
+    {
+      "game_no": 623,
+      "winner": 2,
+      "moves": 90,
+      "black_total": 32,
+      "white_total": 45.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:57.091343"
+    },
+    {
+      "game_no": 624,
+      "winner": 2,
+      "moves": 89,
+      "black_total": 24,
+      "white_total": 50.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:58.447319"
+    },
+    {
+      "game_no": 625,
+      "winner": 2,
+      "moves": 14,
+      "black_total": 7,
+      "white_total": 9.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:58.547751"
+    },
+    {
+      "game_no": 626,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 18,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:58.884877"
+    },
+    {
+      "game_no": 627,
+      "winner": 2,
+      "moves": 153,
+      "black_total": 16,
+      "white_total": 66.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:59.281646"
+    },
+    {
+      "game_no": 628,
+      "winner": 1,
+      "moves": 125,
+      "black_total": 55,
+      "white_total": 28.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:55:59.662375"
+    },
+    {
+      "game_no": 629,
+      "winner": 2,
+      "moves": 253,
+      "black_total": 10,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:00.301725"
+    },
+    {
+      "game_no": 630,
+      "winner": 2,
+      "moves": 83,
+      "black_total": 37,
+      "white_total": 43.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:00.547528"
+    },
+    {
+      "game_no": 631,
+      "winner": 2,
+      "moves": 101,
+      "black_total": 31,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:00.835787"
+    },
+    {
+      "game_no": 632,
+      "winner": 2,
+      "moves": 113,
+      "black_total": 25,
+      "white_total": 56.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:01.135918"
+    },
+    {
+      "game_no": 633,
+      "winner": 2,
+      "moves": 313,
+      "black_total": 10,
+      "white_total": 71.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:02.024962"
+    },
+    {
+      "game_no": 634,
+      "winner": 1,
+      "moves": 84,
+      "black_total": 40,
+      "white_total": 39.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:03.107932"
+    },
+    {
+      "game_no": 635,
+      "winner": 1,
+      "moves": 67,
+      "black_total": 37,
+      "white_total": 33.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:03.392591"
+    },
+    {
+      "game_no": 636,
+      "winner": 1,
+      "moves": 138,
+      "black_total": 64,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:03.958232"
+    },
+    {
+      "game_no": 637,
+      "winner": 1,
+      "moves": 160,
+      "black_total": 81,
+      "white_total": 3.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:04.395767"
+    },
+    {
+      "game_no": 638,
+      "winner": 2,
+      "moves": 169,
+      "black_total": 7,
+      "white_total": 74.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:04.812881"
+    },
+    {
+      "game_no": 639,
+      "winner": 2,
+      "moves": 53,
+      "black_total": 26,
+      "white_total": 28.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:05.017656"
+    },
+    {
+      "game_no": 640,
+      "winner": 2,
+      "moves": 114,
+      "black_total": 28,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:05.280465"
+    },
+    {
+      "game_no": 641,
+      "winner": 1,
+      "moves": 254,
+      "black_total": 50,
+      "white_total": 29.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:05.958295"
+    },
+    {
+      "game_no": 642,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 41,
+      "white_total": 41.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:06.290807"
+    },
+    {
+      "game_no": 643,
+      "winner": 2,
+      "moves": 126,
+      "black_total": 37,
+      "white_total": 46.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:06.680108"
+    },
+    {
+      "game_no": 644,
+      "winner": 2,
+      "moves": 111,
+      "black_total": 41,
+      "white_total": 42.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:07.837538"
+    },
+    {
+      "game_no": 645,
+      "winner": 2,
+      "moves": 93,
+      "black_total": 28,
+      "white_total": 54.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:08.224468"
+    },
+    {
+      "game_no": 646,
+      "winner": 2,
+      "moves": 101,
+      "black_total": 26,
+      "white_total": 53.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:08.591725"
+    },
+    {
+      "game_no": 647,
+      "winner": 2,
+      "moves": 112,
+      "black_total": 35,
+      "white_total": 48.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:08.890731"
+    },
+    {
+      "game_no": 648,
+      "winner": 1,
+      "moves": 82,
+      "black_total": 42,
+      "white_total": 37.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:09.146268"
+    },
+    {
+      "game_no": 649,
+      "winner": 2,
+      "moves": 162,
+      "black_total": 5,
+      "white_total": 73.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:09.616212"
+    },
+    {
+      "game_no": 650,
+      "winner": 1,
+      "moves": 145,
+      "black_total": 67,
+      "white_total": 16.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:10.038652"
+    },
+    {
+      "game_no": 651,
+      "winner": 2,
+      "moves": 171,
+      "black_total": 2,
+      "white_total": 80.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:10.662408"
+    },
+    {
+      "game_no": 652,
+      "winner": 2,
+      "moves": 167,
+      "black_total": 7,
+      "white_total": 75.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:11.258084"
+    },
+    {
+      "game_no": 653,
+      "winner": 1,
+      "moves": 140,
+      "black_total": 69,
+      "white_total": 13.75,
+      "reason": "双方连续虚着，棋局终了",
+      "timestamp": "2026-06-04T20:56:11.680294"
+    }
+  ]
+}

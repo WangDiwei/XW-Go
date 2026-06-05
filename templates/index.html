@@ -115,6 +115,26 @@
                 </div>
             </div>
 
+            <div class="panel-card hw-panel">
+                <h3>
+                    <span>🖥️ 硬件加速</span>
+                    <button class="btn-mini" id="btnHwRefresh" title="重新检测">🔄</button>
+                </h3>
+                <div class="hw-summary" id="hwSummary">
+                    <div class="hw-row">
+                        <span class="hw-key">后端</span>
+                        <span class="hw-val" id="hwBackend">检测中…</span>
+                    </div>
+                    <div class="hw-row">
+                        <span class="hw-key">CPU</span>
+                        <span class="hw-val" id="hwCpu">—</span>
+                    </div>
+                </div>
+                <div class="hw-list" id="hwGpuList"></div>
+                <div class="hw-list" id="hwNpuList"></div>
+                <div class="hw-threads" id="hwThreads"></div>
+            </div>
+
             <div class="panel-card">
                 <h3>训练统计</h3>
                 <div class="stat-grid">

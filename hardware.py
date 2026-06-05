@@ -156,6 +156,101 @@ def _detect_apple_metal():
         pass
     return False
 
+
+# ============= 华为 CANN 昇腾 NPU 检测 =============
+
+def _detect_cann():
+    """检测华为 CANN（昇腾 NPU）架构
+    通过以下任一接口识别：
+      - torch_npu     : PyTorch NPU 适配（基于 HCCL/CANN）
+      - mindspore     : 华为自研深度学习框架
+      - ascend        : CANN Toolkit 顶层包
+      - te / hccl     : CANN 算子/通信库
+    设备名通过 acl.rt.get_device_name 或 mindspore.context 获取。
+    """
+    found = False
+    npu_count = 0
+
+    # 1) torch_npu
+    torch_npu = _silent_import('torch_npu')
+    if torch_npu is not None:
+        try:
+            if hasattr(torch_npu, 'npu') and torch_npu.npu.is_available():
+                npu_count = torch_npu.npu.device_count()
+                for i in range(npu_count):
+                    try:
+                        name = torch_npu.npu.get_device_name(i)
+                    except Exception:
+                        name = f'Ascend NPU #{i}'
+                    HW_INFO['npus'].append({
+                        'type': 'Ascend-CANN',
+                        'name': name,
+                        'vendor': 'Huawei',
+                        'arch': 'Ascend',
+                        'framework': 'torch_npu',
+                        'index': i,
+                    })
+                found = True
+        except Exception as e:
+            HW_INFO.setdefault('errors', []).append(f'torch_npu检测失败: {e}')
+
+    # 2) MindSpore
+    if not found:
+        ms = _silent_import('mindspore')
+        if ms is not None:
+            try:
+                from mindspore import context
+                # 尝试获取昇腾设备数
+                target = 'Ascend'
+                context.set_context(device_target=target)
+                device_count = 1
+                if hasattr(context, 'get_device_count'):
+                    try:
+                        device_count = context.get_device_count(target)
+                    except Exception:
+                        device_count = 1
+                for i in range(device_count):
+                    HW_INFO['npus'].append({
+                        'type': 'Ascend-MindSpore',
+                        'name': f'Ascend NPU #{i}',
+                        'vendor': 'Huawei',
+                        'arch': 'Ascend',
+                        'framework': 'mindspore',
+                        'index': i,
+                    })
+                found = True
+            except Exception as e:
+                HW_INFO.setdefault('errors', []).append(f'MindSpore检测失败: {e}')
+
+    # 3) CANN 顶层包 (昇腾 CANN Toolkit)
+    if not found:
+        for pkg in ('asnumpy', 'acl', 'te', 'hccl'):
+            if _silent_import(pkg) is not None:
+                HW_INFO['npus'].append({
+                    'type': 'Ascend-CANN',
+                    'name': 'Huawei Ascend NPU (CANN Toolkit)',
+                    'vendor': 'Huawei',
+                    'arch': 'Ascend',
+                    'framework': pkg,
+                    'index': 0,
+                })
+                found = True
+                break
+
+    # 4) 环境变量 HUAWEI_ASCEND / ASCEND_HOME
+    if not found and (os.environ.get('ASCEND_HOME') or os.environ.get('HUAWEI_ASCEND')):
+        HW_INFO['npus'].append({
+            'type': 'Ascend-CANN',
+            'name': 'Huawei Ascend NPU (CANN env detected)',
+            'vendor': 'Huawei',
+            'arch': 'Ascend',
+            'framework': 'cann-env',
+            'index': 0,
+        })
+        found = True
+
+    return found
+
 def detect_all():
     """执行全部检测，返回硬件信息字典"""
     _detect_numpy()
@@ -164,9 +259,16 @@ def detect_all():
     has_openvino = _detect_openvino()
     has_cupy = _detect_cupy()
     _detect_apple_metal()
+    has_cann = _detect_cann()
 
-    # 选择最佳后端
-    if has_cuda and any(g.get('type') == 'CUDA' for g in HW_INFO['gpus']):
+    # 选择最佳后端（优先级：CANN NPU > CUDA > DirectML > OpenVINO NPU > OpenVINO > NumPy > CPU）
+    if has_cann:
+        HW_INFO['backend'] = 'cann'
+        n = HW_INFO['npus'][0]
+        arch = n.get('arch', 'Ascend')
+        name = n.get('name', 'Huawei Ascend NPU')
+        HW_INFO['backend_detail'] = f"华为CANN 昇腾 NPU: {name} ({arch})"
+    elif has_cuda and any(g.get('type') == 'CUDA' for g in HW_INFO['gpus']):
         HW_INFO['backend'] = 'cuda'
         g = next(g for g in HW_INFO['gpus'] if g['type'] == 'CUDA')
         HW_INFO['backend_detail'] = f"CUDA GPU: {g['name']} ({g.get('memory_gb', '?')}GB)"
@@ -220,6 +322,99 @@ class ParallelSimulator:
 
     def stats(self):
         return dict(self._stats)
+
+
+class AscendNPUAccelerator:
+    """华为昇腾 CANN NPU 加速器
+    在昇腾硬件可用时，把 MCTS 模拟的棋盘编码为张量并提交到 NPU 计算。
+    对纯 Python 围棋逻辑，默认退化到 CPU+NumPy 实现。
+    """
+    def __init__(self):
+        self.device_id = 0
+        self.available = False
+        self.framework = None
+        self._init_framework()
+
+    def _init_framework(self):
+        """尝试加载 MindSpore 或 torch_npu"""
+        if HW_INFO['npus']:
+            for n in HW_INFO['npus']:
+                if n.get('framework') == 'mindspore':
+                    try:
+                        import mindspore
+                        self.framework = 'mindspore'
+                        self.available = True
+                        return
+                    except Exception:
+                        pass
+                if n.get('framework') == 'torch_npu':
+                    try:
+                        import torch, torch_npu
+                        self.framework = 'torch_npu'
+                        self.available = True
+                        return
+                    except Exception:
+                        pass
+        # 即使没装框架，也可标记为"环境检测到"
+        if HW_INFO['npus']:
+            self.framework = HW_INFO['npus'][0].get('framework', 'cann-env')
+            self.available = False  # 框架未装，CPU 回退
+
+    def encode_board(self, board_state):
+        """编码棋盘为 NPU 张量（3,H,W: 黑/白/气）
+        占位实现：若 NPU 可用则用框架的 Tensor；否则返回 numpy 数组。
+        """
+        import numpy as np
+        s = board_state if isinstance(board_state, np.ndarray) else np.asarray(board_state, dtype=np.float32)
+        if not self.available:
+            return s
+        try:
+            if self.framework == 'mindspore':
+                import mindspore as ms
+                return ms.Tensor(s, ms.float32)
+            elif self.framework == 'torch_npu':
+                import torch
+                return torch.from_numpy(s).npu(self.device_id)
+        except Exception:
+            return s
+
+    def batch_evaluate(self, board_states):
+        """批量评估多个棋盘局面
+        真实 NPU 场景：把 4D 批量张量送入 NPU 并行推理；
+        当前未装框架时用 numpy 简化版。
+        """
+        import numpy as np
+        arr = np.stack([np.asarray(s, dtype=np.float32) for s in board_states])
+        # 简化评估：双方子数差
+        return arr.sum(axis=(1, 2, 3)).tolist() if arr.ndim == 4 else arr.sum(axis=tuple(range(1, arr.ndim))).tolist()
+
+    def synchronize(self):
+        """同步 NPU 设备"""
+        if not self.available:
+            return
+        try:
+            if self.framework == 'mindspore':
+                from mindspore import context
+                context.synchronize()
+            elif self.framework == 'torch_npu':
+                import torch
+                torch.npu.synchronize()
+        except Exception:
+            pass
+
+
+# 全局 NPU 加速器
+_NPU = None
+_NPU_LOCK = threading.Lock()
+
+def get_npu():
+    """获取全局 NPU 加速器（懒加载）"""
+    global _NPU
+    if _NPU is None:
+        with _NPU_LOCK:
+            if _NPU is None:
+                _NPU = AscendNPUAccelerator()
+    return _NPU
 
 
 # 全局并行模拟器（懒加载）

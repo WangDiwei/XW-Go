@@ -624,6 +624,74 @@ async function stopTrain() {
     refreshStats();
 }
 
+async function refreshHardware() {
+    try {
+        const info = await API.get('/api/hardware');
+        // 后端
+        const be = $('hwBackend');
+        be.textContent = info.backend_detail || info.backend;
+        be.className = 'hw-val backend-' + info.backend;
+        // CPU
+        $('hwCpu').textContent = `${info.cpu} (${info.cores}核)`;
+        // GPU 列表
+        const gpuList = $('hwGpuList');
+        gpuList.innerHTML = '';
+        if (info.gpus && info.gpus.length) {
+            const title = document.createElement('div');
+            title.className = 'hw-key';
+            title.style.marginTop = '8px';
+            title.textContent = `🎮 GPU (${info.gpus.length})`;
+            gpuList.appendChild(title);
+            for (const g of info.gpus) {
+                const d = document.createElement('div');
+                d.className = 'hw-device';
+                const tl = (g.type || '').toLowerCase();
+                if (tl.includes('cann') || tl.includes('ascend')) d.classList.add('cann');
+                else if (tl.includes('cuda')) d.classList.add('cuda');
+                else if (tl.includes('dml') || tl.includes('directml')) d.classList.add('dml');
+                const mem = g.memory_gb ? ` · ${g.memory_gb}GB` : '';
+                const dev = g.device ? ` · ${g.device}` : '';
+                d.innerHTML = `<div class="hw-device-name">${g.type}: ${g.name}</div>
+                    <div class="hw-device-meta">${(g.vendor || '')}${mem}${dev}</div>`;
+                gpuList.appendChild(d);
+            }
+        }
+        // NPU 列表
+        const npuList = $('hwNpuList');
+        npuList.innerHTML = '';
+        if (info.npus && info.npus.length) {
+            const title = document.createElement('div');
+            title.className = 'hw-key';
+            title.style.marginTop = '8px';
+            title.textContent = `🧠 NPU (${info.npus.length})`;
+            npuList.appendChild(title);
+            for (const n of info.npus) {
+                const d = document.createElement('div');
+                d.className = 'hw-device cann';
+                d.innerHTML = `<div class="hw-device-name">${n.type}: ${n.name}</div>
+                    <div class="hw-device-meta">vendor: ${n.vendor || '—'} · framework: ${n.framework || '—'}</div>`;
+                npuList.appendChild(d);
+            }
+        }
+        // 线程环境
+        const threads = $('hwThreads');
+        if (info.thread_env) {
+            const t = info.thread_env;
+            threads.textContent = `🧵 线程: OMP=${t.OMP_NUM_THREADS || '-'} MKL=${t.MKL_NUM_THREADS || '-'} OpenBLAS=${t.OPENBLAS_NUM_THREADS || '-'}`;
+        }
+    } catch (e) {
+        $('hwBackend').textContent = '检测失败: ' + e.message;
+    }
+}
+
+async function refreshHardwareForce() {
+    const r = await API.post('/api/hardware/refresh');
+    if (r.ok) {
+        showToast('硬件检测已更新', 'success');
+        await refreshHardware();
+    }
+}
+
 async function trainOneStep() {
     if (State.isThinking) return;
     setThinking(true);
@@ -684,6 +752,7 @@ function setupEvents() {
     $('btnTrainStart').addEventListener('click', startTrain);
     $('btnTrainStop').addEventListener('click', stopTrain);
     $('btnTrainStep').addEventListener('click', trainOneStep);
+    if ($('btnHwRefresh')) $('btnHwRefresh').addEventListener('click', refreshHardwareForce);
     // 模态框
     $('modalCloseBtn').addEventListener('click', () => {
         $('gameOverModal').classList.remove('active');
@@ -724,6 +793,7 @@ async function init() {
     applyState(s);
     await refreshStats();
     await refreshHistory();
+    await refreshHardware();
     drawBoard();
     // 训练中则开始轮询
     if (s.is_training || (State.training)) {

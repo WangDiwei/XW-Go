@@ -762,3 +762,63 @@ body {
         max-height: none;
     }
 }
+
+/* ========== 硬件加速面板 ========== */
+.hw-panel h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hw-panel .btn-mini {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s;
+    font-size: 14px;
+}
+.hw-panel .btn-mini:hover {
+    background: var(--accent);
+    color: #fff;
+    transform: rotate(180deg);
+}
+.hw-summary, .hw-list, .hw-threads {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.hw-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px dashed rgba(255,255,255,0.05);
+}
+.hw-key { color: var(--text-secondary); }
+.hw-val { color: var(--text-primary); font-family: 'JetBrains Mono', 'Consolas', monospace; }
+.hw-val.backend-cann { color: #ff6b35; font-weight: 600; }
+.hw-val.backend-cuda { color: #76b900; font-weight: 600; }
+.hw-val.backend-directml { color: #00a4ef; font-weight: 600; }
+.hw-val.backend-npu { color: #c5a572; font-weight: 600; }
+.hw-val.backend-numpy-simd { color: #8be9fd; font-weight: 600; }
+.hw-val.backend-cpu { color: #999; }
+.hw-device {
+    background: rgba(255,255,255,0.04);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin: 4px 0;
+    font-family: 'JetBrains Mono', 'Consolas', monospace;
+    font-size: 11px;
+}
+.hw-device.npu, .hw-device.cann { border-left-color: #ff6b35; background: rgba(255,107,53,0.08); }
+.hw-device.cuda { border-left-color: #76b900; }
+.hw-device.dml { border-left-color: #00a4ef; }
+.hw-device-name { color: var(--text-primary); font-weight: 600; }
+.hw-device-meta { color: var(--text-secondary); font-size: 10px; margin-top: 2px; }
+.hw-threads {
+    color: var(--text-secondary);
+    padding-top: 4px;
+    border-top: 1px dashed rgba(255,255,255,0.05);
+}

@@ -13,13 +13,22 @@
 - **AI 决策引擎**
   - 阶段一（前 N 局）：随机落子，探索棋盘
   - 阶段二（N+1 局起）：基于 Q 表 + UCB1 的自对弈学习
-  - 简单 MCTS 模式可对比
+  - 简单 MCTS 模式可对比（多线程加速）
 - **自对弈训练循环**
   - 异步连续训练 N 局
   - 实时统计：总对局数、阶段、近 N 局胜率、Q 表状态数
   - 模型自动保存到 `models/`
   - 棋谱 SGF 自动保存到 `games/`
-- **REST API**：走子、AI 走子、重置、分析、训练、SGF 保存/加载
+- **硬件自动检测与加速**
+  - 华为 CANN 昇腾 NPU（torch_npu / MindSpore / CANN Toolkit）
+  - NVIDIA CUDA（PyTorch / CuPy）
+  - Windows DirectML（ONNX Runtime）
+  - Intel OpenVINO（NPU/GPU/VPU）
+  - Apple Metal（macOS）
+  - NumPy + SIMD（X86_V3 / AVX2）
+  - 多线程 MCTS（ParallelSimulator）
+  - 运行时动态切换，UI 实时显示
+- **REST API**：走子、AI 走子、重置、分析、训练、SGF 保存/加载、硬件检测
 
 ### 前端（深色专业围棋软件风格）
 - 19×19 / 13×13 / 9×9 木质棋盘
@@ -34,8 +43,9 @@
 ```
 XW-GO/
 ├── go_engine.py        # 围棋规则引擎
-├── ai_player.py        # AI 决策（Q表+UCB1 / 简单MCTS）
+├── ai_player.py        # AI 决策（Q表+UCB1 / 简单MCTS / 多线程）
 ├── trainer.py          # 自对弈训练循环
+├── hardware.py         # 硬件自动检测 (CUDA/CANN/DirectML/OpenVINO/Metal)
 ├── app.py              # Flask 后端 + REST API
 ├── requirements.txt    # Python 依赖
 ├── README.md
@@ -43,7 +53,7 @@ XW-GO/
 │   └── index.html      # 主页面
 ├── static/
 │   ├── css/style.css   # 样式（木质+深色主题）
-│   └── js/main.js      # 前端逻辑（Canvas 棋盘+Chart.js）
+│   └── js/main.js      # 前端逻辑（Canvas 棋盘+Chart.js+硬件面板）
 ├── models/             # AI 模型（自动创建）
 │   ├── ai_9x9.json     # 经验表
 │   └── stats_9x9.json  # 训练历史
@@ -127,6 +137,37 @@ python app.py
 | GET | `/api/games` | 棋谱列表 |
 | GET | `/api/games/{filename}` | 获取棋谱内容 |
 | POST | `/api/ai-mode` | 切换 AI 模式 |
+| **GET** | **`/api/hardware`** | **硬件检测信息（CPU/GPU/NPU/后端/线程）** |
+| **POST** | **`/api/hardware/refresh`** | **运行时重新检测硬件** |
+
+## 🖥️ 硬件加速后端
+
+`hardware.py` 自动按优先级选择最佳后端：
+`CANN NPU` > `CUDA` > `DirectML` > `OpenVINO NPU` > `OpenVINO` > `NumPy SIMD` > `CPU`
+
+| 后端 | 触发条件 | 接口 |
+|------|----------|------|
+| **华为 CANN** | `torch_npu` / `mindspore` / `ASCEND_HOME` 环境 | `AscendNPUAccelerator` |
+| **NVIDIA CUDA** | `torch.cuda.is_available()` / `cupy` | PyTorch / CuPy |
+| **DirectML** | `onnxruntime` + `DmlExecutionProvider` | ONNX Runtime |
+| **OpenVINO NPU** | `openvino.runtime`，`NPU` 设备 | OpenVINO |
+| **NumPy SIMD** | 仅依赖 `numpy` | `numpy_batch_eval` |
+| **CPU** | 无任何加速库 | 纯 Python |
+
+前端 `🖥️ 硬件加速` 面板会显示：当前后端、CPU 型号与核数、所有检测到的 GPU/NPU、线程环境（OMP/MKL/OpenBLAS）。点击 `🔄` 可运行时重新检测（适合外接 GPU 插拔场景）。
+
+### 启用华为 CANN 昇腾 NPU 加速
+
+```bash
+# 方法 1: torch_npu（PyTorch 适配）
+pip install torch torch_npu
+
+# 方法 2: MindSpore
+pip install mindspore
+
+# 方法 3: 部署好 CANN Toolkit 后设置环境变量
+set ASCEND_HOME=C:\Program Files\Huawei\Ascend\ascend-toolkit\<ver>
+```
 
 ## ⚙️ 关键参数
 

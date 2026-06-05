@@ -24,9 +24,17 @@ hardware.set_thread_env()
 HW = hardware.get_info()
 print(f'  CPU: {HW["cpu"]} ({HW["cores"]}核)')
 for g in HW['gpus']:
-    print(f'  GPU: {g["type"]} - {g["name"]}')
+    extra = ''
+    if 'memory_gb' in g:
+        extra = f' [{g["memory_gb"]}GB]'
+    elif 'device' in g:
+        extra = f' [{g["device"]}]'
+    print(f'  GPU: {g["type"]} - {g["name"]}{extra}')
 for n in HW['npus']:
-    print(f'  NPU: {n["type"]} - {n["name"]}')
+    vendor = n.get('vendor', '')
+    fw = n.get('framework', '')
+    extra = f' [{fw}]' if fw else ''
+    print(f'  NPU: {n["type"]} - {n["name"]}{extra} (vendor: {vendor})')
 print(f'  加速后端: {HW["backend"]} ({HW["backend_detail"]})')
 print('=' * 60)
 
